@@ -1,0 +1,88 @@
+{
+  "simulation_info": {
+    "timestamp": "2025-09-22T02:03:36.087314",
+    "tx_per_block": 100,
+    "total_blocks": 5,
+    "total_transactions": 500,
+    "simulation_types": [
+      "sequential",
+      "parallel"
+    ]
+  },
+  "sequential_results": [
+    {
+      "algorithm": "ECDSA",
+      "tps": 4410.547913587786,
+      "avg_sign_time_ms": 0.07318220003980969,
+      "avg_verify_time_ms": 0.1109439999981987,
+      "avg_latency_ms": 0.20036820002133027,
+      "avg_block_time_ms": 22.672919999786245,
+      "avg_block_size_bytes": 42729.2
+    },
+    {
+      "algorithm": "ML-DSA-44",
+      "tps": 1116.3786818959586,
+      "avg_sign_time_ms": 0.6535122000295814,
+      "avg_verify_time_ms": 0.15565439998499642,
+      "avg_latency_ms": 0.8323175999903469,
+      "avg_block_time_ms": 89.57534000037413,
+      "avg_block_size_bytes": 756733
+    },
+    {
+      "algorithm": "ML-DSA-65",
+      "tps": 783.7618342157732,
+      "avg_sign_time_ms": 0.9429649999947287,
+      "avg_verify_time_ms": 0.2355846000227757,
+      "avg_latency_ms": 1.1998470000053203,
+      "avg_block_time_ms": 127.58978000001662,
+      "avg_block_size_bytes": 1062534.8
+    },
+    {
+      "algorithm": "ML-DSA-87",
+      "tps": 599.440745762188,
+      "avg_sign_time_ms": 1.1413828000040667,
+      "avg_verify_time_ms": 0.3946709999745508,
+      "avg_latency_ms": 1.5589171999872633,
+      "avg_block_time_ms": 166.8221599999015,
+      "avg_block_size_bytes": 1454134.8
+    }
+  ],
+  "parallel_results": [
+    {
+      "algorithm": "ECDSA",
+      "tps": 1174.7212210359894,
+      "avg_sign_time_ms": 0.08722140002828382,
+      "avg_verify_time_ms": 0.12234159998251924,
+      "avg_tx_latency_ms": 0.20956300001080308,
+      "avg_block_time_ms": 85.12657999981457,
+      "avg_block_size_bytes": 42621.2
+    },
+    {
+      "algorithm": "ML-DSA-44",
+      "tps": 2024.2783852432897,
+      "avg_sign_time_ms": 1.2363642000254913,
+      "avg_verify_time_ms": 0.44416755000429475,
+      "avg_tx_latency_ms": 1.680531750029786,
+      "avg_block_time_ms": 49.400319999949716,
+      "avg_block_size_bytes": 756621.6
+    },
+    {
+      "algorithm": "ML-DSA-65",
+      "tps": 2056.922449090092,
+      "avg_sign_time_ms": 1.797359400003188,
+      "avg_verify_time_ms": 0.6563209500172889,
+      "avg_tx_latency_ms": 2.453680350020477,
+      "avg_block_time_ms": 48.61631999992824,
+      "avg_block_size_bytes": 1062420.4
+    },
+    {
+      "algorithm": "ML-DSA-87",
+      "tps": 1792.400580015381,
+      "avg_sign_time_ms": 2.0172002000090288,
+      "avg_verify_time_ms": 0.9313995500106103,
+      "avg_tx_latency_ms": 2.948599750019639,
+      "avg_block_time_ms": 55.791100000169536,
+      "avg_block_size_bytes": 1454022.8
+    }
+  ]
+}

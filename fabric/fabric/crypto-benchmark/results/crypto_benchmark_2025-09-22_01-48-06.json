@@ -1,0 +1,88 @@
+{
+  "test_configuration": {
+    "test_message": "Hyperledger Fabric ML-DSA vs ECDSA Performance Benchmarke",
+    "iterations": 100,
+    "algorithms": [
+      "ECDSA",
+      "ML-DSA-44",
+      "ML-DSA-65",
+      "ML-DSA-87"
+    ],
+    "test_duration": "475.1092ms"
+  },
+  "results": [
+    {
+      "algorithm": "ECDSA",
+      "keygen_time_ms": 0.022994,
+      "sign_time_ms": 0.071858,
+      "verify_time_ms": 0.227245,
+      "public_key_bytes": 91,
+      "private_key_bytes": 121,
+      "signature_bytes": 71,
+      "timestamp": "2025-09-22T01:48:05+05:30"
+    },
+    {
+      "algorithm": "ML-DSA-44",
+      "keygen_time_ms": 0.159497,
+      "sign_time_ms": 0.163074,
+      "verify_time_ms": 0.0699,
+      "public_key_bytes": 1312,
+      "private_key_bytes": 2528,
+      "signature_bytes": 2420,
+      "timestamp": "2025-09-22T01:48:05+05:30"
+    },
+    {
+      "algorithm": "ML-DSA-65",
+      "keygen_time_ms": 0.164289,
+      "sign_time_ms": 0.31368,
+      "verify_time_ms": 0.19055,
+      "public_key_bytes": 1952,
+      "private_key_bytes": 4000,
+      "signature_bytes": 3293,
+      "timestamp": "2025-09-22T01:48:06+05:30"
+    },
+    {
+      "algorithm": "ML-DSA-87",
+      "keygen_time_ms": 0.147901,
+      "sign_time_ms": 0.513344,
+      "verify_time_ms": 0.106172,
+      "public_key_bytes": 2592,
+      "private_key_bytes": 4864,
+      "signature_bytes": 4595,
+      "timestamp": "2025-09-22T01:48:06+05:30"
+    }
+  ],
+  "summary": {
+    "fastest_keygen": {
+      "algorithm": "ECDSA",
+      "value": 0.022994,
+      "unit": "ms"
+    },
+    "fastest_sign": {
+      "algorithm": "ECDSA",
+      "value": 0.071858,
+      "unit": "ms"
+    },
+    "fastest_verify": {
+      "algorithm": "ML-DSA-44",
+      "value": 0.0699,
+      "unit": "ms"
+    },
+    "smallest_public_key": {
+      "algorithm": "ECDSA",
+      "value": 91,
+      "unit": "bytes"
+    },
+    "smallest_private_key": {
+      "algorithm": "ECDSA",
+      "value": 121,
+      "unit": "bytes"
+    },
+    "smallest_signature": {
+      "algorithm": "ECDSA",
+      "value": 71,
+      "unit": "bytes"
+    }
+  },
+  "timestamp": "2025-09-22T01:48:06+05:30"
+}

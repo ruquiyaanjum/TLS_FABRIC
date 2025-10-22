@@ -1,0 +1,185 @@
+# configtx.yaml
+# Organizations defines the participating organizations
+
+Organizations:
+    - &OrdererOrg
+        Name: OrdererOrg
+        ID: OrdererMSP
+        MSPDir: crypto-config/ordererOrganizations/orderer.qkd/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Writers:
+                Type: Signature
+                Rule: "OR('OrdererMSP.member')"
+            Admins:
+                Type: Signature
+                Rule: "OR('OrdererMSP.admin')"
+
+    - &Org1
+        Name: Org1
+        ID: Org1MSP
+        MSPDir: crypto-config/peerOrganizations/org1.qkd/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('Org1MSP.admin', 'Org1MSP.peer', 'Org1MSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('Org1MSP.admin', 'Org1MSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('Org1MSP.admin')"
+            Endorsement:
+                Type: Signature
+                Rule: "OR('Org1MSP.peer')"
+        AnchorPeers:
+            - Host: nodeA-peer0.org1.qkd
+              Port: 7051
+
+    - &Org2
+        Name: Org2
+        ID: Org2MSP
+        MSPDir: crypto-config/peerOrganizations/org2.qkd/msp
+        Policies:
+            Readers:
+                Type: Signature
+                Rule: "OR('Org2MSP.admin', 'Org2MSP.peer', 'Org2MSP.client')"
+            Writers:
+                Type: Signature
+                Rule: "OR('Org2MSP.admin', 'Org2MSP.client')"
+            Admins:
+                Type: Signature
+                Rule: "OR('Org2MSP.admin')"
+            Endorsement:
+                Type: Signature
+                Rule: "OR('Org2MSP.peer')"
+        AnchorPeers:
+            - Host: nodeC-peer0.org2.qkd
+              Port: 7051
+
+Application: &ApplicationDefaults
+    Policies:
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins"
+        LifecycleEndorsement:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Endorsement"
+        Endorsement:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Endorsement"
+
+Orderer: &OrdererDefaults
+    OrdererType: etcdraft
+    Addresses:
+        - nodeA.orderer.qkd:7050
+        - nodeC.orderer.qkd:7050
+        - nodeE.orderer.qkd:7050
+    BatchTimeout: 2s
+    BatchSize:
+        MaxMessageCount: 500
+        AbsoluteMaxBytes: 10 MB
+        PreferredMaxBytes: 2 MB
+    Organizations:
+    Policies:
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins"
+        BlockValidation:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+    EtcdRaft:
+        Consenters:
+            - Host: nodeA.orderer.qkd
+              Port: 7050
+              ClientTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeA.orderer.qkd/tls/server.crt
+              ServerTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeA.orderer.qkd/tls/server.crt
+            - Host: nodeC.orderer.qkd
+              Port: 7050
+              ClientTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeC.orderer.qkd/tls/server.crt
+              ServerTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeC.orderer.qkd/tls/server.crt
+            - Host: nodeE.orderer.qkd
+              Port: 7050
+              ClientTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeE.orderer.qkd/tls/server.crt
+              ServerTLSCert: crypto-config/ordererOrganizations/orderer.qkd/orderers/nodeE.orderer.qkd/tls/server.crt
+
+Channel: &ChannelDefaults
+    Policies:
+        Readers:
+            Type: ImplicitMeta
+            Rule: "ANY Readers"
+        Writers:
+            Type: ImplicitMeta
+            Rule: "ANY Writers"
+        Admins:
+            Type: ImplicitMeta
+            Rule: "MAJORITY Admins"
+
+Capabilities:
+    Channel: &ChannelCapabilities
+        V2_0: true
+    Orderer: &OrdererCapabilities
+        V2_0: true
+    Application: &ApplicationCapabilities
+        V2_0: true
+
+Profiles:
+    ThreeOrgsOrdererGenesis:
+        <<: *ChannelDefaults
+        Policies:
+            Readers:
+                Type: ImplicitMeta
+                Rule: "ANY Readers"
+            Writers:
+                Type: ImplicitMeta
+                Rule: "ANY Writers"
+            Admins:
+                Type: ImplicitMeta
+                Rule: "MAJORITY Admins"
+        Orderer:
+            <<: *OrdererDefaults
+            Organizations:
+                - *OrdererOrg
+            Capabilities:
+                <<: *OrdererCapabilities
+        Consortiums:
+            SampleConsortium:
+                Organizations:
+                    - *Org1
+                    - *Org2
+        Capabilities:
+            <<: *ChannelCapabilities
+
+    TwoOrgsChannel:
+        Consortium: SampleConsortium
+        Policies:
+            Readers:
+                Type: ImplicitMeta
+                Rule: "ANY Readers"
+            Writers:
+                Type: ImplicitMeta
+                Rule: "ANY Writers"
+            Admins:
+                Type: ImplicitMeta
+                Rule: "MAJORITY Admins"
+        Application:
+            <<: *ApplicationDefaults
+            Organizations:
+                - *Org1
+                - *Org2
+        Capabilities:
+            <<: *ApplicationCapabilities 

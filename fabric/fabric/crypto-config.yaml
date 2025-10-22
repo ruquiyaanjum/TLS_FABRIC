@@ -1,0 +1,39 @@
+# crypto-config.yaml
+# Enterprise blockchain allows multi-organisation quorum
+
+OrdererOrgs:
+  - Name: OrdererOrg
+    ID: OrdererMSP
+    MSPDir: crypto-config/ordererOrganizations/orderer.qkd
+    Domain: orderer.qkd
+    Specs:
+      - Hostname: nodeA
+      - Hostname: nodeC
+      - Hostname: nodeE
+
+PeerOrgs:
+  - Name: Org1
+    ID: Org1MSP
+    MSPDir: crypto-config/peerOrganizations/org1.qkd
+    Domain: org1.qkd
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: nodeA-peer0
+      - Hostname: nodeB-peer1
+    Users:
+      Count: 1
+    Template:
+      Count: 2
+
+  - Name: Org2
+    ID: Org2MSP
+    MSPDir: crypto-config/peerOrganizations/org2.qkd
+    Domain: org2.qkd
+    EnableNodeOUs: true
+    Specs:
+      - Hostname: nodeC-peer0
+      - Hostname: nodeD-peer1
+    Users:
+      Count: 1
+    Template:
+      Count: 2 

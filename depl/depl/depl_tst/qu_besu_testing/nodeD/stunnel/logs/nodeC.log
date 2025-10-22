@@ -1,0 +1,2502 @@
+2025.06.17 02:19:43 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:19:43 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.06.17 02:19:43 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.06.17 02:19:43 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.06.17 02:19:43 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:19:43 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.06.17 02:19:43 LOG5[main]: UTF-8 byte order mark not detected
+2025.06.17 02:19:43 LOG5[main]: FIPS mode disabled
+2025.06.17 02:19:43 LOG6[main]: Compression disabled
+2025.06.17 02:19:43 LOG6[main]: Initializing service [nodeC-server]
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.06.17 02:19:43 LOG6[main]: PSK identities: 4 retrieved
+2025.06.17 02:19:43 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:19:43 LOG6[main]: Session resumption enabled
+2025.06.17 02:19:43 LOG6[main]: No trusted certificates found
+2025.06.17 02:19:43 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.06.17 02:19:43 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.06.17 02:19:43 LOG6[main]: Using dynamic DH parameters
+2025.06.17 02:19:43 LOG6[main]: Initializing service [nodeC-client-A]
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.06.17 02:19:43 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:19:43 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:19:43 LOG6[main]: Session resumption enabled
+2025.06.17 02:19:43 LOG6[main]: No trusted certificates found
+2025.06.17 02:19:43 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:19:43 LOG6[main]: Initializing service [nodeC-client-B]
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.06.17 02:19:43 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:19:43 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:19:43 LOG6[main]: Session resumption enabled
+2025.06.17 02:19:43 LOG6[main]: No trusted certificates found
+2025.06.17 02:19:43 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:19:43 LOG6[main]: Initializing service [nodeC-client-D]
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.06.17 02:19:43 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:19:43 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:19:43 LOG6[main]: Session resumption enabled
+2025.06.17 02:19:43 LOG6[main]: No trusted certificates found
+2025.06.17 02:19:43 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:19:43 LOG6[main]: Initializing service [nodeC-client-E]
+2025.06.17 02:19:43 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.06.17 02:19:43 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:19:43 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:19:43 LOG6[main]: Session resumption enabled
+2025.06.17 02:19:43 LOG6[main]: No trusted certificates found
+2025.06.17 02:19:43 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:19:43 LOG5[main]: Configuration successful
+2025.06.17 02:19:43 LOG6[main]: Service [nodeC-server] (FD=644) bound to 127.0.0.1:13013
+2025.06.17 02:19:43 LOG6[main]: Service [nodeC-client-A] (FD=308) bound to 127.0.0.1:30431
+2025.06.17 02:19:43 LOG6[main]: Service [nodeC-client-B] (FD=724) bound to 127.0.0.1:30432
+2025.06.17 02:19:43 LOG6[main]: Service [nodeC-client-D] (FD=648) bound to 127.0.0.1:30433
+2025.06.17 02:19:43 LOG6[main]: Service [nodeC-client-E] (FD=736) bound to 127.0.0.1:30434
+2025.06.17 02:19:43 LOG6[main]: Accepting new connections
+2025.06.17 02:19:43 LOG6[per-day]: Executing per-day jobs
+2025.06.17 02:19:43 LOG5[per-day]: Updating DH parameters
+2025.06.17 02:20:43 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.06.17 02:20:59 LOG5[main]: Terminated
+2025.06.17 02:28:15 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:28:15 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.06.17 02:28:15 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.06.17 02:28:15 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.06.17 02:28:15 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:28:15 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.06.17 02:28:15 LOG5[main]: UTF-8 byte order mark not detected
+2025.06.17 02:28:15 LOG5[main]: FIPS mode disabled
+2025.06.17 02:28:15 LOG6[main]: Compression disabled
+2025.06.17 02:28:15 LOG6[main]: Initializing service [nodeC-server]
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.06.17 02:28:15 LOG6[main]: PSK identities: 4 retrieved
+2025.06.17 02:28:15 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:28:15 LOG6[main]: Session resumption enabled
+2025.06.17 02:28:15 LOG6[main]: No trusted certificates found
+2025.06.17 02:28:15 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.06.17 02:28:15 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.06.17 02:28:15 LOG6[main]: Using dynamic DH parameters
+2025.06.17 02:28:15 LOG6[main]: Initializing service [nodeC-client-A]
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.06.17 02:28:15 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:28:15 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:28:15 LOG6[main]: Session resumption enabled
+2025.06.17 02:28:15 LOG6[main]: No trusted certificates found
+2025.06.17 02:28:15 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:28:15 LOG6[main]: Initializing service [nodeC-client-B]
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.06.17 02:28:15 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:28:15 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:28:15 LOG6[main]: Session resumption enabled
+2025.06.17 02:28:15 LOG6[main]: No trusted certificates found
+2025.06.17 02:28:15 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:28:15 LOG6[main]: Initializing service [nodeC-client-D]
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.06.17 02:28:15 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:28:15 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:28:15 LOG6[main]: Session resumption enabled
+2025.06.17 02:28:15 LOG6[main]: No trusted certificates found
+2025.06.17 02:28:15 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:28:15 LOG6[main]: Initializing service [nodeC-client-E]
+2025.06.17 02:28:15 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.06.17 02:28:15 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:28:15 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:28:15 LOG6[main]: Session resumption enabled
+2025.06.17 02:28:15 LOG6[main]: No trusted certificates found
+2025.06.17 02:28:15 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:28:15 LOG5[main]: Configuration successful
+2025.06.17 02:28:15 LOG6[main]: Service [nodeC-server] (FD=668) bound to 127.0.0.1:13013
+2025.06.17 02:28:15 LOG6[main]: Service [nodeC-client-A] (FD=740) bound to 127.0.0.1:30431
+2025.06.17 02:28:15 LOG6[main]: Service [nodeC-client-B] (FD=752) bound to 127.0.0.1:30432
+2025.06.17 02:28:15 LOG6[main]: Service [nodeC-client-D] (FD=756) bound to 127.0.0.1:30433
+2025.06.17 02:28:15 LOG6[main]: Service [nodeC-client-E] (FD=760) bound to 127.0.0.1:30434
+2025.06.17 02:28:15 LOG6[main]: Accepting new connections
+2025.06.17 02:28:15 LOG6[per-day]: Executing per-day jobs
+2025.06.17 02:28:15 LOG5[per-day]: Updating DH parameters
+2025.06.17 02:28:46 LOG5[main]: Terminated
+2025.06.17 02:35:29 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:35:29 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.06.17 02:35:29 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.06.17 02:35:29 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.06.17 02:35:29 LOG6[main]: Initializing inetd mode configuration
+2025.06.17 02:35:29 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.06.17 02:35:29 LOG5[main]: UTF-8 byte order mark not detected
+2025.06.17 02:35:29 LOG5[main]: FIPS mode disabled
+2025.06.17 02:35:29 LOG6[main]: Compression disabled
+2025.06.17 02:35:29 LOG6[main]: Initializing service [nodeC-server]
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.06.17 02:35:29 LOG6[main]: PSK identities: 4 retrieved
+2025.06.17 02:35:29 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:35:29 LOG6[main]: Session resumption enabled
+2025.06.17 02:35:29 LOG6[main]: No trusted certificates found
+2025.06.17 02:35:29 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.06.17 02:35:29 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.06.17 02:35:29 LOG6[main]: Using dynamic DH parameters
+2025.06.17 02:35:29 LOG6[main]: Initializing service [nodeC-client-A]
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.06.17 02:35:29 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:35:29 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:35:29 LOG6[main]: Session resumption enabled
+2025.06.17 02:35:29 LOG6[main]: No trusted certificates found
+2025.06.17 02:35:29 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:35:29 LOG6[main]: Initializing service [nodeC-client-B]
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.06.17 02:35:29 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:35:29 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:35:29 LOG6[main]: Session resumption enabled
+2025.06.17 02:35:29 LOG6[main]: No trusted certificates found
+2025.06.17 02:35:29 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:35:29 LOG6[main]: Initializing service [nodeC-client-D]
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.06.17 02:35:29 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:35:29 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:35:29 LOG6[main]: Session resumption enabled
+2025.06.17 02:35:29 LOG6[main]: No trusted certificates found
+2025.06.17 02:35:29 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:35:29 LOG6[main]: Initializing service [nodeC-client-E]
+2025.06.17 02:35:29 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.06.17 02:35:29 LOG6[main]: PSK identities: 1 retrieved
+2025.06.17 02:35:29 LOG6[main]: OpenSSL security level is used: 2
+2025.06.17 02:35:29 LOG6[main]: Session resumption enabled
+2025.06.17 02:35:29 LOG6[main]: No trusted certificates found
+2025.06.17 02:35:29 LOG6[main]: DH initialization skipped: client section
+2025.06.17 02:35:29 LOG5[main]: Configuration successful
+2025.06.17 02:35:29 LOG6[main]: Service [nodeC-server] (FD=644) bound to 127.0.0.1:13013
+2025.06.17 02:35:29 LOG6[main]: Service [nodeC-client-A] (FD=728) bound to 127.0.0.1:30431
+2025.06.17 02:35:29 LOG6[main]: Service [nodeC-client-B] (FD=732) bound to 127.0.0.1:30432
+2025.06.17 02:35:29 LOG6[main]: Service [nodeC-client-D] (FD=736) bound to 127.0.0.1:30433
+2025.06.17 02:35:29 LOG6[main]: Service [nodeC-client-E] (FD=740) bound to 127.0.0.1:30434
+2025.06.17 02:35:29 LOG6[main]: Accepting new connections
+2025.06.17 02:35:29 LOG6[per-day]: Executing per-day jobs
+2025.06.17 02:35:29 LOG5[per-day]: Updating DH parameters
+2025.06.17 02:36:05 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:57686
+2025.06.17 02:36:05 LOG6[0]: Peer certificate not required
+2025.06.17 02:36:05 LOG5[0]: Key configured for PSK identity "nodeE-nodeC"
+2025.06.17 02:36:05 LOG6[0]: No peer certificate received
+2025.06.17 02:36:05 LOG6[0]: Session id: 090C1C86AFA1BD169507147EE52E493291E271E3ABCB8DA4BF47C37320A07C9A
+2025.06.17 02:36:05 LOG6[0]: TLS accepted: PSK
+2025.06.17 02:36:05 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:05 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:05 LOG6[0]: Session id: 090C1C86AFA1BD169507147EE52E493291E271E3ABCB8DA4BF47C37320A07C9A
+2025.06.17 02:36:05 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.06.17 02:36:06 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:57699
+2025.06.17 02:36:06 LOG6[1]: Peer certificate not required
+2025.06.17 02:36:06 LOG5[1]: Key configured for PSK identity "nodeD-nodeC"
+2025.06.17 02:36:06 LOG6[1]: No peer certificate received
+2025.06.17 02:36:06 LOG6[1]: Session id: 476A1A0E248F5A1CFEE86A275C206ABB0B4052A1D524F0589E956DE7B145B4FB
+2025.06.17 02:36:06 LOG6[1]: TLS accepted: PSK
+2025.06.17 02:36:06 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:06 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:06 LOG6[1]: Session id: 476A1A0E248F5A1CFEE86A275C206ABB0B4052A1D524F0589E956DE7B145B4FB
+2025.06.17 02:36:06 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.06.17 02:36:06 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.06.17 02:36:06 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.06.17 02:36:06 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:57692
+2025.06.17 02:36:07 LOG6[0]: Read socket closed (readsocket)
+2025.06.17 02:36:07 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:07 LOG6[0]: TLS closed (SSL_read)
+2025.06.17 02:36:07 LOG5[0]: Connection closed: 492 byte(s) sent to TLS, 621 byte(s) sent to socket
+2025.06.17 02:36:07 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.06.17 02:36:07 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.06.17 02:36:07 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:57702
+2025.06.17 02:36:07 LOG6[1]: Read socket closed (readsocket)
+2025.06.17 02:36:07 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:07 LOG6[1]: TLS closed (SSL_read)
+2025.06.17 02:36:07 LOG5[1]: Connection closed: 354 byte(s) sent to TLS, 677 byte(s) sent to socket
+2025.06.17 02:36:07 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:57707
+2025.06.17 02:36:07 LOG6[2]: Peer certificate not required
+2025.06.17 02:36:07 LOG5[2]: Key configured for PSK identity "nodeA-nodeC"
+2025.06.17 02:36:07 LOG6[2]: No peer certificate received
+2025.06.17 02:36:07 LOG6[2]: Session id: 0A03077AF1B278FF5C00DDA09A79D5F2153B39301807DAEB59F3188E3040B9B9
+2025.06.17 02:36:07 LOG6[2]: TLS accepted: PSK
+2025.06.17 02:36:07 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:07 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:07 LOG6[2]: Session id: 0A03077AF1B278FF5C00DDA09A79D5F2153B39301807DAEB59F3188E3040B9B9
+2025.06.17 02:36:07 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.06.17 02:36:07 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.06.17 02:36:07 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.06.17 02:36:07 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:57710
+2025.06.17 02:36:07 LOG6[2]: Read socket closed (readsocket)
+2025.06.17 02:36:07 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:07 LOG6[2]: TLS closed (SSL_read)
+2025.06.17 02:36:07 LOG5[2]: Connection closed: 328 byte(s) sent to TLS, 669 byte(s) sent to socket
+2025.06.17 02:36:07 LOG5[3]: Service [nodeC-client-E] accepted connection from 127.0.0.1:57716
+2025.06.17 02:36:07 LOG5[4]: Service [nodeC-client-A] accepted connection from 127.0.0.1:57718
+2025.06.17 02:36:07 LOG6[4]: s_connect: connecting 127.0.0.1:13011
+2025.06.17 02:36:07 LOG6[3]: s_connect: connecting 127.0.0.1:13015
+2025.06.17 02:36:07 LOG5[4]: s_connect: connected 127.0.0.1:13011
+2025.06.17 02:36:07 LOG5[4]: Service [nodeC-client-A] connected remote server from 127.0.0.1:57720
+2025.06.17 02:36:07 LOG5[3]: s_connect: connected 127.0.0.1:13015
+2025.06.17 02:36:07 LOG5[3]: Service [nodeC-client-E] connected remote server from 127.0.0.1:57721
+2025.06.17 02:36:07 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.06.17 02:36:07 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.06.17 02:36:07 LOG6[4]: Peer certificate not required
+2025.06.17 02:36:07 LOG6[3]: Peer certificate not required
+2025.06.17 02:36:07 LOG5[5]: Service [nodeC-client-B] accepted connection from 127.0.0.1:57717
+2025.06.17 02:36:07 LOG6[5]: s_connect: connecting 127.0.0.1:13012
+2025.06.17 02:36:07 LOG6[4]: PSK client configured for identity "nodeC-nodeA"
+2025.06.17 02:36:07 LOG6[3]: PSK client configured for identity "nodeC-nodeE"
+2025.06.17 02:36:07 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.06.17 02:36:07 LOG6[3]: TLS connected: previous session reused
+2025.06.17 02:36:07 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:07 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:07 LOG6[3]: Session id: 
+2025.06.17 02:36:07 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.06.17 02:36:07 LOG6[4]: TLS connected: previous session reused
+2025.06.17 02:36:07 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:07 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:07 LOG6[4]: Session id: 
+2025.06.17 02:36:07 LOG6[4]: No peer certificate received
+2025.06.17 02:36:07 LOG6[4]: Session id: 11DFB6279DC302A0203F55DF6985D46E752B0F710332890A38B3888180428186
+2025.06.17 02:36:07 LOG6[3]: No peer certificate received
+2025.06.17 02:36:07 LOG6[3]: Session id: 95716EABE3F49E7ECD2FAAE8F66C05D96785B13CBA007E4D9F30307CA0065DA5
+2025.06.17 02:36:07 LOG5[5]: s_connect: connected 127.0.0.1:13012
+2025.06.17 02:36:07 LOG5[5]: Service [nodeC-client-B] connected remote server from 127.0.0.1:57722
+2025.06.17 02:36:07 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.06.17 02:36:07 LOG6[5]: Peer certificate not required
+2025.06.17 02:36:07 LOG6[3]: TLS closed (SSL_read)
+2025.06.17 02:36:07 LOG6[3]: Read socket closed (readsocket)
+2025.06.17 02:36:07 LOG6[3]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:07 LOG5[3]: Connection closed: 480 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.06.17 02:36:07 LOG6[5]: PSK client configured for identity "nodeC-nodeB"
+2025.06.17 02:36:07 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.06.17 02:36:07 LOG6[5]: TLS connected: previous session reused
+2025.06.17 02:36:07 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:07 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:07 LOG6[5]: Session id: 
+2025.06.17 02:36:07 LOG6[5]: No peer certificate received
+2025.06.17 02:36:07 LOG6[5]: Session id: 37B67515EA0D5C135EF35452B85472ACE5F1D1DD25648C26331A1215761FC0DD
+2025.06.17 02:36:07 LOG6[5]: TLS closed (SSL_read)
+2025.06.17 02:36:07 LOG6[5]: Read socket closed (readsocket)
+2025.06.17 02:36:07 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:07 LOG5[5]: Connection closed: 702 byte(s) sent to TLS, 346 byte(s) sent to socket
+2025.06.17 02:36:07 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:57730
+2025.06.17 02:36:07 LOG6[6]: Peer certificate not required
+2025.06.17 02:36:07 LOG5[6]: Key configured for PSK identity "nodeB-nodeC"
+2025.06.17 02:36:07 LOG6[6]: No peer certificate received
+2025.06.17 02:36:07 LOG6[6]: Session id: C62004EAFC2C3ACFCEDAE1FCF7F81932A1413E2144F1E492E4DD3B8316ED16A1
+2025.06.17 02:36:07 LOG6[6]: TLS accepted: PSK
+2025.06.17 02:36:07 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.06.17 02:36:07 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.06.17 02:36:07 LOG6[6]: Session id: C62004EAFC2C3ACFCEDAE1FCF7F81932A1413E2144F1E492E4DD3B8316ED16A1
+2025.06.17 02:36:07 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.06.17 02:36:07 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.06.17 02:36:07 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.06.17 02:36:07 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:57734
+2025.06.17 02:36:21 LOG6[4]: Read socket closed (readsocket)
+2025.06.17 02:36:21 LOG6[4]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:21 LOG6[4]: TLS closed (SSL_read)
+2025.06.17 02:36:21 LOG5[4]: Connection closed: 14832 byte(s) sent to TLS, 18357 byte(s) sent to socket
+2025.06.17 02:36:26 LOG6[6]: TLS closed (SSL_read)
+2025.06.17 02:36:26 LOG6[6]: Read socket closed (readsocket)
+2025.06.17 02:36:26 LOG6[6]: SSL_shutdown successfully sent close_notify alert
+2025.06.17 02:36:26 LOG5[6]: Connection closed: 18360 byte(s) sent to TLS, 21155 byte(s) sent to socket
+2025.06.17 02:36:29 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.06.17 02:37:29 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.06.17 02:37:35 LOG5[main]: Terminated
+2025.08.16 21:09:25 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:09:25 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:09:25 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:09:25 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:09:25 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:09:25 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:09:25 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:09:25 LOG5[main]: FIPS mode disabled
+2025.08.16 21:09:25 LOG6[main]: Compression disabled
+2025.08.16 21:09:25 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:09:25 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:09:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:09:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:09:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:09:25 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:09:25 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:09:25 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:09:25 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:09:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:09:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:09:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:09:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:09:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:09:25 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:09:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:09:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:09:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:09:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:09:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:09:25 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:09:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:09:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:09:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:09:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:09:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:09:25 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:09:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:09:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:09:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:09:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:09:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:09:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:09:25 LOG5[main]: Configuration successful
+2025.08.16 21:09:25 LOG6[main]: Service [nodeC-server] (FD=660) bound to 127.0.0.1:13013
+2025.08.16 21:09:25 LOG6[main]: Service [nodeC-client-A] (FD=744) bound to 127.0.0.1:30431
+2025.08.16 21:09:25 LOG6[main]: Service [nodeC-client-B] (FD=748) bound to 127.0.0.1:30432
+2025.08.16 21:09:25 LOG6[main]: Service [nodeC-client-D] (FD=752) bound to 127.0.0.1:30433
+2025.08.16 21:09:25 LOG6[main]: Service [nodeC-client-E] (FD=756) bound to 127.0.0.1:30434
+2025.08.16 21:09:25 LOG6[main]: Accepting new connections
+2025.08.16 21:09:25 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:09:25 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:09:42 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:50931
+2025.08.16 21:09:42 LOG6[0]: Peer certificate not required
+2025.08.16 21:09:42 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:09:42 LOG6[0]: No peer certificate received
+2025.08.16 21:09:42 LOG6[0]: Session id: 87765EF64999B879FCCB62EDF4550F6DBDD09302F73A1013B680414B6196DBC0
+2025.08.16 21:09:42 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:09:42 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:42 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:42 LOG6[0]: Session id: 87765EF64999B879FCCB62EDF4550F6DBDD09302F73A1013B680414B6196DBC0
+2025.08.16 21:09:42 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:09:43 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:50943
+2025.08.16 21:09:43 LOG6[1]: Peer certificate not required
+2025.08.16 21:09:43 LOG5[1]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:09:43 LOG6[1]: No peer certificate received
+2025.08.16 21:09:43 LOG6[1]: Session id: A88ABB3A267741DF151BC4198B5FF1052B62534AED3195AEE74A4A14B71E8BA1
+2025.08.16 21:09:43 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:09:43 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:43 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:43 LOG6[1]: Session id: A88ABB3A267741DF151BC4198B5FF1052B62534AED3195AEE74A4A14B71E8BA1
+2025.08.16 21:09:43 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:09:43 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:50955
+2025.08.16 21:09:43 LOG6[2]: Peer certificate not required
+2025.08.16 21:09:43 LOG5[2]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:09:43 LOG6[2]: No peer certificate received
+2025.08.16 21:09:43 LOG6[2]: Session id: 2EFDFF47356B7E17843D93491268608D59D04F5455E7ADE44BE676DAF460617B
+2025.08.16 21:09:43 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:09:43 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:43 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:43 LOG6[2]: Session id: 2EFDFF47356B7E17843D93491268608D59D04F5455E7ADE44BE676DAF460617B
+2025.08.16 21:09:43 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:09:43 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:09:43 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:09:43 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:50947
+2025.08.16 21:09:43 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:09:43 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:09:43 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:50938
+2025.08.16 21:09:43 LOG6[0]: Read socket closed (readsocket)
+2025.08.16 21:09:43 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:09:43 LOG6[1]: Read socket closed (readsocket)
+2025.08.16 21:09:43 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:09:43 LOG6[0]: TLS closed (SSL_read)
+2025.08.16 21:09:43 LOG6[1]: TLS closed (SSL_read)
+2025.08.16 21:09:43 LOG5[1]: Connection closed: 324 byte(s) sent to TLS, 707 byte(s) sent to socket
+2025.08.16 21:09:43 LOG5[0]: Connection closed: 336 byte(s) sent to TLS, 592 byte(s) sent to socket
+2025.08.16 21:09:43 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:09:43 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:09:43 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:50959
+2025.08.16 21:09:44 LOG5[3]: Service [nodeC-client-B] accepted connection from 127.0.0.1:50961
+2025.08.16 21:09:44 LOG5[4]: Service [nodeC-client-A] accepted connection from 127.0.0.1:50962
+2025.08.16 21:09:44 LOG6[3]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:09:44 LOG6[4]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:09:44 LOG5[3]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:09:44 LOG5[3]: Service [nodeC-client-B] connected remote server from 127.0.0.1:50963
+2025.08.16 21:09:44 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:09:44 LOG6[3]: Peer certificate not required
+2025.08.16 21:09:44 LOG5[4]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:09:44 LOG5[4]: Service [nodeC-client-A] connected remote server from 127.0.0.1:50964
+2025.08.16 21:09:44 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:09:44 LOG6[4]: Peer certificate not required
+2025.08.16 21:09:44 LOG6[3]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:09:44 LOG6[4]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:09:44 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:09:44 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:09:44 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:44 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:44 LOG6[4]: Session id: 
+2025.08.16 21:09:44 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.08.16 21:09:44 LOG6[3]: TLS connected: previous session reused
+2025.08.16 21:09:44 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:44 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:44 LOG6[3]: Session id: 
+2025.08.16 21:09:44 LOG6[4]: No peer certificate received
+2025.08.16 21:09:44 LOG6[4]: Session id: B18F6179A49D7EBADCFCBC288112F1A8BD9167506FFE9449710E3F9D44A3B30B
+2025.08.16 21:09:44 LOG6[3]: No peer certificate received
+2025.08.16 21:09:44 LOG6[3]: Session id: 8210BDEE7987111FF1D48F7FF62607167623EF848AE13AE85EC5419815F2F18D
+2025.08.16 21:09:44 LOG5[5]: Service [nodeC-client-E] accepted connection from 127.0.0.1:50968
+2025.08.16 21:09:44 LOG6[5]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:09:44 LOG5[5]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:09:44 LOG5[5]: Service [nodeC-client-E] connected remote server from 127.0.0.1:50969
+2025.08.16 21:09:44 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:09:44 LOG6[5]: Peer certificate not required
+2025.08.16 21:09:44 LOG6[5]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:09:44 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:09:44 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:09:44 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:44 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:44 LOG6[5]: Session id: 
+2025.08.16 21:09:44 LOG6[5]: No peer certificate received
+2025.08.16 21:09:44 LOG6[5]: Session id: 65B1BD38BBF6DAF0A50082E576912FBEC9C2C75551E9F45764F0CD8F7085120E
+2025.08.16 21:09:44 LOG6[5]: TLS closed (SSL_read)
+2025.08.16 21:09:44 LOG6[5]: Read socket closed (readsocket)
+2025.08.16 21:09:44 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:09:44 LOG5[5]: Connection closed: 516 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:09:44 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:50978
+2025.08.16 21:09:44 LOG6[6]: Peer certificate not required
+2025.08.16 21:09:44 LOG5[6]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:09:44 LOG6[6]: No peer certificate received
+2025.08.16 21:09:44 LOG6[6]: Session id: CDFE77597E128598ADA48DABC01994CD4A4260BE41D46B0F2EF5CBE3DA3D0FCD
+2025.08.16 21:09:44 LOG6[6]: TLS accepted: PSK
+2025.08.16 21:09:44 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:09:44 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:09:44 LOG6[6]: Session id: CDFE77597E128598ADA48DABC01994CD4A4260BE41D46B0F2EF5CBE3DA3D0FCD
+2025.08.16 21:09:44 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:09:44 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:09:44 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:09:44 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:50980
+2025.08.16 21:10:14 LOG6[2]: Read socket closed (readsocket)
+2025.08.16 21:10:14 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:10:14 LOG6[2]: TLS closed (SSL_read)
+2025.08.16 21:10:14 LOG5[2]: Connection closed: 24040 byte(s) sent to TLS, 27768 byte(s) sent to socket
+2025.08.16 21:10:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:10:45 LOG5[7]: Service [nodeC-server] accepted connection from 127.0.0.1:51016
+2025.08.16 21:10:45 LOG6[7]: Peer certificate not required
+2025.08.16 21:10:45 LOG6[7]: PSK identity not found (session resumption?)
+2025.08.16 21:10:45 LOG6[7]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:10:45 LOG6[7]: No peer certificate received
+2025.08.16 21:10:45 LOG6[7]: Session id: 0B33B0B4808638352B81F4EEE639C8184B794C856F490CF2348509C89C2032F7
+2025.08.16 21:10:45 LOG6[7]: TLS accepted: previous session reused
+2025.08.16 21:10:45 LOG6[7]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:10:45 LOG6[7]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:10:45 LOG6[7]: Session id: 0B33B0B4808638352B81F4EEE639C8184B794C856F490CF2348509C89C2032F7
+2025.08.16 21:10:45 LOG6[7]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:10:45 LOG5[7]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:10:45 LOG6[7]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:10:45 LOG5[7]: Service [nodeC-server] connected remote server from 127.0.0.1:51017
+2025.08.16 21:11:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:12:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:12:47 LOG3[6]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:12:47 LOG5[6]: Connection reset: 226576 byte(s) sent to TLS, 229648 byte(s) sent to socket
+2025.08.16 21:12:48 LOG3[7]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:12:48 LOG5[7]: Connection reset: 154692 byte(s) sent to TLS, 153720 byte(s) sent to socket
+2025.08.16 21:12:48 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:12:48 LOG5[4]: Connection reset: 223542 byte(s) sent to TLS, 229169 byte(s) sent to socket
+2025.08.16 21:12:48 LOG3[3]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:12:48 LOG5[3]: Connection reset: 222051 byte(s) sent to TLS, 228503 byte(s) sent to socket
+2025.08.16 21:13:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:14:01 LOG5[8]: Service [nodeC-server] accepted connection from 127.0.0.1:51118
+2025.08.16 21:14:01 LOG6[8]: Peer certificate not required
+2025.08.16 21:14:01 LOG6[8]: PSK identity not found (session resumption?)
+2025.08.16 21:14:01 LOG6[8]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:14:01 LOG6[8]: No peer certificate received
+2025.08.16 21:14:01 LOG6[8]: Session id: 6639A62F0856C7B5885C089F39A98C006BC1FDD8C20FF79D3014774AF008E11E
+2025.08.16 21:14:01 LOG6[8]: TLS accepted: previous session reused
+2025.08.16 21:14:01 LOG6[8]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:01 LOG6[8]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:01 LOG6[8]: Session id: 6639A62F0856C7B5885C089F39A98C006BC1FDD8C20FF79D3014774AF008E11E
+2025.08.16 21:14:01 LOG6[8]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:14:02 LOG5[9]: Service [nodeC-server] accepted connection from 127.0.0.1:51129
+2025.08.16 21:14:02 LOG6[9]: Peer certificate not required
+2025.08.16 21:14:02 LOG6[9]: PSK identity not found (session resumption?)
+2025.08.16 21:14:02 LOG6[9]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:14:02 LOG6[9]: No peer certificate received
+2025.08.16 21:14:02 LOG6[9]: Session id: AFE99276F414D220A293AF400C8487A7F238261C194FD4BA512C6658222A1AD8
+2025.08.16 21:14:02 LOG6[9]: TLS accepted: previous session reused
+2025.08.16 21:14:02 LOG6[9]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:02 LOG6[9]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:02 LOG6[9]: Session id: AFE99276F414D220A293AF400C8487A7F238261C194FD4BA512C6658222A1AD8
+2025.08.16 21:14:02 LOG6[9]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:14:02 LOG5[10]: Service [nodeC-server] accepted connection from 127.0.0.1:51141
+2025.08.16 21:14:02 LOG6[10]: Peer certificate not required
+2025.08.16 21:14:02 LOG6[10]: PSK identity not found (session resumption?)
+2025.08.16 21:14:02 LOG6[10]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:14:02 LOG6[10]: No peer certificate received
+2025.08.16 21:14:02 LOG6[10]: Session id: B17D0272A95D109C5A887D1D24FDECB76D30FC5363B209850CC45EEF082C2D71
+2025.08.16 21:14:02 LOG6[10]: TLS accepted: previous session reused
+2025.08.16 21:14:02 LOG6[10]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:02 LOG6[10]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:02 LOG6[10]: Session id: B17D0272A95D109C5A887D1D24FDECB76D30FC5363B209850CC45EEF082C2D71
+2025.08.16 21:14:02 LOG6[10]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:14:03 LOG5[11]: Service [nodeC-server] accepted connection from 127.0.0.1:51150
+2025.08.16 21:14:03 LOG6[11]: Peer certificate not required
+2025.08.16 21:14:03 LOG6[11]: PSK identity not found (session resumption?)
+2025.08.16 21:14:03 LOG6[11]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:14:03 LOG6[11]: No peer certificate received
+2025.08.16 21:14:03 LOG6[11]: Session id: 0E40CEF033B9FEE1EA4DBB884F0DA819395FD2E38937EFC07124902596AEF630
+2025.08.16 21:14:03 LOG6[11]: TLS accepted: previous session reused
+2025.08.16 21:14:03 LOG6[11]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:03 LOG6[11]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:03 LOG6[11]: Session id: 0E40CEF033B9FEE1EA4DBB884F0DA819395FD2E38937EFC07124902596AEF630
+2025.08.16 21:14:03 LOG6[11]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:14:03 LOG5[8]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:14:03 LOG6[8]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:14:03 LOG5[8]: Service [nodeC-server] connected remote server from 127.0.0.1:51122
+2025.08.16 21:14:03 LOG5[10]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:14:03 LOG6[10]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:14:03 LOG5[10]: Service [nodeC-server] connected remote server from 127.0.0.1:51144
+2025.08.16 21:14:03 LOG6[8]: Read socket closed (readsocket)
+2025.08.16 21:14:03 LOG6[10]: Read socket closed (readsocket)
+2025.08.16 21:14:03 LOG6[10]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:14:03 LOG6[8]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:14:03 LOG6[10]: TLS closed (SSL_read)
+2025.08.16 21:14:03 LOG5[10]: Connection closed: 475 byte(s) sent to TLS, 734 byte(s) sent to socket
+2025.08.16 21:14:03 LOG6[8]: TLS closed (SSL_read)
+2025.08.16 21:14:03 LOG5[8]: Connection closed: 320 byte(s) sent to TLS, 643 byte(s) sent to socket
+2025.08.16 21:14:03 LOG5[9]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:14:03 LOG6[9]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:14:03 LOG5[9]: Service [nodeC-server] connected remote server from 127.0.0.1:51133
+2025.08.16 21:14:03 LOG5[12]: Service [nodeC-client-B] accepted connection from 127.0.0.1:51158
+2025.08.16 21:14:03 LOG6[12]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:14:03 LOG5[13]: Service [nodeC-client-A] accepted connection from 127.0.0.1:51159
+2025.08.16 21:14:03 LOG6[13]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:14:03 LOG5[12]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:14:03 LOG5[12]: Service [nodeC-client-B] connected remote server from 127.0.0.1:51160
+2025.08.16 21:14:03 LOG6[12]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:14:03 LOG5[13]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:14:03 LOG6[12]: Attempting to resume: 8210BDEE7987111FF1D48F7FF62607167623EF848AE13AE85EC5419815F2F18D
+2025.08.16 21:14:03 LOG6[12]: Peer certificate not required
+2025.08.16 21:14:03 LOG5[13]: Service [nodeC-client-A] connected remote server from 127.0.0.1:51161
+2025.08.16 21:14:03 LOG6[13]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:14:03 LOG6[13]: Attempting to resume: B18F6179A49D7EBADCFCBC288112F1A8BD9167506FFE9449710E3F9D44A3B30B
+2025.08.16 21:14:03 LOG6[13]: Peer certificate not required
+2025.08.16 21:14:03 LOG6[12]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:14:03 LOG5[14]: Service [nodeC-client-E] accepted connection from 127.0.0.1:51163
+2025.08.16 21:14:03 LOG6[14]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:14:03 LOG6[13]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:14:03 LOG5[14]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:14:03 LOG5[14]: Service [nodeC-client-E] connected remote server from 127.0.0.1:51164
+2025.08.16 21:14:03 LOG6[14]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:14:03 LOG6[14]: Attempting to resume: 65B1BD38BBF6DAF0A50082E576912FBEC9C2C75551E9F45764F0CD8F7085120E
+2025.08.16 21:14:03 LOG6[14]: Peer certificate not required
+2025.08.16 21:14:03 LOG6[14]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:14:03 LOG6[12]: OCSP: Certificate chain verification disabled
+2025.08.16 21:14:03 LOG6[12]: TLS connected: previous session reused
+2025.08.16 21:14:03 LOG6[12]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:03 LOG6[12]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:03 LOG6[12]: Session id: 8210BDEE7987111FF1D48F7FF62607167623EF848AE13AE85EC5419815F2F18D
+2025.08.16 21:14:03 LOG6[13]: OCSP: Certificate chain verification disabled
+2025.08.16 21:14:03 LOG6[12]: No peer certificate received
+2025.08.16 21:14:03 LOG6[12]: Session id: EC11A0BA65448EB83F0CE27B255F2E6F846DCEBA57C9A9D91DF31C00D28981BE
+2025.08.16 21:14:03 LOG6[13]: TLS connected: previous session reused
+2025.08.16 21:14:03 LOG6[13]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:03 LOG6[13]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:03 LOG6[13]: Session id: B18F6179A49D7EBADCFCBC288112F1A8BD9167506FFE9449710E3F9D44A3B30B
+2025.08.16 21:14:03 LOG6[13]: No peer certificate received
+2025.08.16 21:14:03 LOG6[13]: Session id: 02FCCF2231A12946DC66E9523CB2311FEC6AD4F9B84D47E9690518F8BB8FA4C1
+2025.08.16 21:14:03 LOG6[14]: OCSP: Certificate chain verification disabled
+2025.08.16 21:14:03 LOG6[14]: TLS connected: previous session reused
+2025.08.16 21:14:03 LOG6[14]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:14:03 LOG6[14]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:14:03 LOG6[14]: Session id: 65B1BD38BBF6DAF0A50082E576912FBEC9C2C75551E9F45764F0CD8F7085120E
+2025.08.16 21:14:03 LOG6[14]: No peer certificate received
+2025.08.16 21:14:03 LOG6[14]: Session id: 29AFE78A058DC458925196322F38CF8BF5101AA87E1027D2F766372049DEF40C
+2025.08.16 21:14:03 LOG6[14]: TLS closed (SSL_read)
+2025.08.16 21:14:03 LOG6[14]: Read socket closed (readsocket)
+2025.08.16 21:14:03 LOG6[14]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:14:03 LOG5[14]: Connection closed: 408 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:14:03 LOG5[11]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:14:03 LOG6[11]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:14:03 LOG5[11]: Service [nodeC-server] connected remote server from 127.0.0.1:51154
+2025.08.16 21:14:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:14:37 LOG6[9]: TLS closed (SSL_read)
+2025.08.16 21:14:37 LOG6[9]: Read socket closed (readsocket)
+2025.08.16 21:14:37 LOG6[9]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:14:37 LOG5[9]: Connection closed: 30333 byte(s) sent to TLS, 33567 byte(s) sent to socket
+2025.08.16 21:15:04 LOG5[15]: Service [nodeC-server] accepted connection from 127.0.0.1:51203
+2025.08.16 21:15:04 LOG6[15]: Peer certificate not required
+2025.08.16 21:15:04 LOG6[15]: PSK identity not found (session resumption?)
+2025.08.16 21:15:04 LOG6[15]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:15:04 LOG6[15]: No peer certificate received
+2025.08.16 21:15:04 LOG6[15]: Session id: FDA682D2CAAC04A8F9227D64C7F9ABD29C8050A59A809188548F57D1985C47C8
+2025.08.16 21:15:04 LOG6[15]: TLS accepted: previous session reused
+2025.08.16 21:15:04 LOG6[15]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:15:04 LOG6[15]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:15:04 LOG6[15]: Session id: FDA682D2CAAC04A8F9227D64C7F9ABD29C8050A59A809188548F57D1985C47C8
+2025.08.16 21:15:04 LOG6[15]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:15:04 LOG5[15]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:15:04 LOG6[15]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:15:04 LOG5[15]: Service [nodeC-server] connected remote server from 127.0.0.1:51204
+2025.08.16 21:15:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:16:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:17:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:18:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:19:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:20:08 LOG5[16]: Service [nodeC-server] accepted connection from 127.0.0.1:51356
+2025.08.16 21:20:08 LOG6[16]: Peer certificate not required
+2025.08.16 21:20:08 LOG5[16]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:20:08 LOG6[16]: No peer certificate received
+2025.08.16 21:20:08 LOG6[16]: Session id: F3E01F474C9043F9EC967FB1C4689CB9337E995B1939D278CB5DB4C32BF36C5A
+2025.08.16 21:20:08 LOG6[16]: TLS accepted: PSK
+2025.08.16 21:20:08 LOG6[16]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:20:08 LOG6[16]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:20:08 LOG6[16]: Session id: F3E01F474C9043F9EC967FB1C4689CB9337E995B1939D278CB5DB4C32BF36C5A
+2025.08.16 21:20:08 LOG6[16]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:20:08 LOG5[16]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:20:08 LOG6[16]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:20:08 LOG5[16]: Service [nodeC-server] connected remote server from 127.0.0.1:51357
+2025.08.16 21:20:08 LOG6[16]: TLS closed (SSL_read)
+2025.08.16 21:20:08 LOG6[16]: Read socket closed (readsocket)
+2025.08.16 21:20:08 LOG6[16]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:20:08 LOG5[16]: Connection closed: 0 byte(s) sent to TLS, 1 byte(s) sent to socket
+2025.08.16 21:20:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:21:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:22:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:23:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:24:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:25:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:25:40 LOG3[11]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:25:40 LOG5[11]: Connection reset: 869711 byte(s) sent to TLS, 877582 byte(s) sent to socket
+2025.08.16 21:25:40 LOG3[15]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:25:40 LOG5[15]: Connection reset: 802686 byte(s) sent to TLS, 799498 byte(s) sent to socket
+2025.08.16 21:25:41 LOG3[12]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:25:41 LOG3[13]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:25:41 LOG5[13]: Connection reset: 867656 byte(s) sent to TLS, 878950 byte(s) sent to socket
+2025.08.16 21:25:41 LOG5[12]: Connection reset: 873403 byte(s) sent to TLS, 877937 byte(s) sent to socket
+2025.08.16 21:25:45 LOG5[main]: Terminated
+2025.08.16 21:25:51 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:25:51 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:25:51 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:25:51 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:25:51 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:25:51 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:25:51 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:25:51 LOG5[main]: FIPS mode disabled
+2025.08.16 21:25:51 LOG6[main]: Compression disabled
+2025.08.16 21:25:51 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:25:51 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:25:51 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:25:51 LOG6[main]: Session resumption enabled
+2025.08.16 21:25:51 LOG6[main]: No trusted certificates found
+2025.08.16 21:25:51 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:25:51 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:25:51 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:25:51 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:25:51 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:25:51 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:25:51 LOG6[main]: Session resumption enabled
+2025.08.16 21:25:51 LOG6[main]: No trusted certificates found
+2025.08.16 21:25:51 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:25:51 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:25:51 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:25:51 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:25:51 LOG6[main]: Session resumption enabled
+2025.08.16 21:25:51 LOG6[main]: No trusted certificates found
+2025.08.16 21:25:51 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:25:51 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:25:51 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:25:51 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:25:51 LOG6[main]: Session resumption enabled
+2025.08.16 21:25:51 LOG6[main]: No trusted certificates found
+2025.08.16 21:25:51 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:25:51 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:25:51 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:25:51 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:25:51 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:25:51 LOG6[main]: Session resumption enabled
+2025.08.16 21:25:51 LOG6[main]: No trusted certificates found
+2025.08.16 21:25:51 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:25:51 LOG5[main]: Configuration successful
+2025.08.16 21:25:51 LOG6[main]: Service [nodeC-server] (FD=724) bound to 127.0.0.1:13013
+2025.08.16 21:25:51 LOG6[main]: Service [nodeC-client-A] (FD=732) bound to 127.0.0.1:30431
+2025.08.16 21:25:51 LOG6[main]: Service [nodeC-client-B] (FD=712) bound to 127.0.0.1:30432
+2025.08.16 21:25:51 LOG6[main]: Service [nodeC-client-D] (FD=728) bound to 127.0.0.1:30433
+2025.08.16 21:25:51 LOG6[main]: Service [nodeC-client-E] (FD=736) bound to 127.0.0.1:30434
+2025.08.16 21:25:51 LOG6[main]: Accepting new connections
+2025.08.16 21:25:51 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:25:51 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:26:08 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:51553
+2025.08.16 21:26:08 LOG6[0]: Peer certificate not required
+2025.08.16 21:26:08 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:26:08 LOG6[0]: No peer certificate received
+2025.08.16 21:26:08 LOG6[0]: Session id: 1B4F0DFE5B05AAB1FC650D4416587459257923E5AA5AC2BE857D087E8FD8C3F2
+2025.08.16 21:26:08 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:26:08 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:08 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:08 LOG6[0]: Session id: 1B4F0DFE5B05AAB1FC650D4416587459257923E5AA5AC2BE857D087E8FD8C3F2
+2025.08.16 21:26:08 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:26:09 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:51564
+2025.08.16 21:26:09 LOG6[1]: Peer certificate not required
+2025.08.16 21:26:09 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:26:09 LOG6[1]: No peer certificate received
+2025.08.16 21:26:09 LOG6[1]: Session id: DA60CC5CBA06E4921720F73FDF5991D830CA3A4E320AE8D82D1E76265A289EE9
+2025.08.16 21:26:09 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:26:09 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:09 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:09 LOG6[1]: Session id: DA60CC5CBA06E4921720F73FDF5991D830CA3A4E320AE8D82D1E76265A289EE9
+2025.08.16 21:26:09 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:26:09 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:26:09 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:26:09 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:51568
+2025.08.16 21:26:09 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:51578
+2025.08.16 21:26:09 LOG6[2]: Peer certificate not required
+2025.08.16 21:26:09 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:26:09 LOG6[2]: No peer certificate received
+2025.08.16 21:26:09 LOG6[2]: Session id: 721E5E841EA109DF7F93D794F1149C3854FE5F4808231C10DE864EA75A6737A4
+2025.08.16 21:26:09 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:26:09 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:09 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:09 LOG6[2]: Session id: 721E5E841EA109DF7F93D794F1149C3854FE5F4808231C10DE864EA75A6737A4
+2025.08.16 21:26:09 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:26:09 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:26:09 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:26:09 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:51580
+2025.08.16 21:26:09 LOG6[2]: Read socket closed (readsocket)
+2025.08.16 21:26:09 LOG6[1]: Read socket closed (readsocket)
+2025.08.16 21:26:09 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:26:09 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:26:09 LOG6[2]: TLS closed (SSL_read)
+2025.08.16 21:26:09 LOG6[1]: TLS closed (SSL_read)
+2025.08.16 21:26:09 LOG5[2]: Connection closed: 453 byte(s) sent to TLS, 730 byte(s) sent to socket
+2025.08.16 21:26:09 LOG5[1]: Connection closed: 467 byte(s) sent to TLS, 718 byte(s) sent to socket
+2025.08.16 21:26:10 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:26:10 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:26:10 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:51557
+2025.08.16 21:26:10 LOG6[0]: Read socket closed (readsocket)
+2025.08.16 21:26:10 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:26:10 LOG6[0]: TLS closed (SSL_read)
+2025.08.16 21:26:10 LOG5[0]: Connection closed: 363 byte(s) sent to TLS, 749 byte(s) sent to socket
+2025.08.16 21:26:10 LOG5[3]: Service [nodeC-client-A] accepted connection from 127.0.0.1:51584
+2025.08.16 21:26:10 LOG5[5]: Service [nodeC-client-E] accepted connection from 127.0.0.1:51582
+2025.08.16 21:26:10 LOG6[3]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:26:10 LOG6[5]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:26:10 LOG5[4]: Service [nodeC-client-B] accepted connection from 127.0.0.1:51583
+2025.08.16 21:26:10 LOG6[4]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:26:10 LOG5[4]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:26:10 LOG5[4]: Service [nodeC-client-B] connected remote server from 127.0.0.1:51588
+2025.08.16 21:26:10 LOG5[3]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:26:10 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:26:10 LOG5[3]: Service [nodeC-client-A] connected remote server from 127.0.0.1:51586
+2025.08.16 21:26:10 LOG6[4]: Peer certificate not required
+2025.08.16 21:26:10 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:26:10 LOG6[3]: Peer certificate not required
+2025.08.16 21:26:10 LOG6[3]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:26:10 LOG6[4]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:26:10 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:26:10 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:26:10 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:10 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:10 LOG6[4]: Session id: 
+2025.08.16 21:26:10 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.08.16 21:26:10 LOG6[4]: No peer certificate received
+2025.08.16 21:26:10 LOG6[4]: Session id: A27BD1C81C4CA58F47A2EA4602706EDC949749709DF558A46BAEC4736FC8F227
+2025.08.16 21:26:10 LOG6[3]: TLS connected: previous session reused
+2025.08.16 21:26:10 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:10 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:10 LOG6[3]: Session id: 
+2025.08.16 21:26:10 LOG6[3]: No peer certificate received
+2025.08.16 21:26:10 LOG6[3]: Session id: B58F442A7F36EAE94D3EAC7C36D9175F8CCA3971CB949EC2980E5C00D3DD4DEC
+2025.08.16 21:26:10 LOG5[5]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:26:10 LOG5[5]: Service [nodeC-client-E] connected remote server from 127.0.0.1:51587
+2025.08.16 21:26:10 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:26:10 LOG6[5]: Peer certificate not required
+2025.08.16 21:26:10 LOG6[5]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:26:10 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:26:10 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:26:10 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:10 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:10 LOG6[5]: Session id: 
+2025.08.16 21:26:10 LOG6[5]: No peer certificate received
+2025.08.16 21:26:10 LOG6[5]: Session id: 438BA5E39D67570CC8E057D868751E2A2AADFB6C8CCF8E17382A4680E75F818C
+2025.08.16 21:26:10 LOG6[5]: TLS closed (SSL_read)
+2025.08.16 21:26:10 LOG6[5]: Read socket closed (readsocket)
+2025.08.16 21:26:10 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:26:10 LOG5[5]: Connection closed: 505 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:26:10 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:51600
+2025.08.16 21:26:10 LOG6[6]: Peer certificate not required
+2025.08.16 21:26:10 LOG5[6]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:26:10 LOG6[6]: No peer certificate received
+2025.08.16 21:26:10 LOG6[6]: Session id: 7AC33E5B70D2229AFA18FF6DDDB38FBA393C89326C7901C1F4C365ABC0C1C763
+2025.08.16 21:26:10 LOG6[6]: TLS accepted: PSK
+2025.08.16 21:26:10 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:26:10 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:26:10 LOG6[6]: Session id: 7AC33E5B70D2229AFA18FF6DDDB38FBA393C89326C7901C1F4C365ABC0C1C763
+2025.08.16 21:26:10 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:26:10 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:26:10 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:26:10 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:51602
+2025.08.16 21:26:40 LOG3[6]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:26:40 LOG5[6]: Connection reset: 35947 byte(s) sent to TLS, 37853 byte(s) sent to socket
+2025.08.16 21:26:41 LOG3[3]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:26:41 LOG5[3]: Connection reset: 34552 byte(s) sent to TLS, 37893 byte(s) sent to socket
+2025.08.16 21:26:41 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:26:41 LOG5[4]: Connection reset: 35302 byte(s) sent to TLS, 37597 byte(s) sent to socket
+2025.08.16 21:26:49 LOG5[main]: Terminated
+2025.08.16 21:26:56 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:26:56 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:26:56 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:26:56 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:26:56 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:26:56 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:26:56 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:26:56 LOG5[main]: FIPS mode disabled
+2025.08.16 21:26:56 LOG6[main]: Compression disabled
+2025.08.16 21:26:56 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:26:56 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:26:56 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:26:56 LOG6[main]: Session resumption enabled
+2025.08.16 21:26:56 LOG6[main]: No trusted certificates found
+2025.08.16 21:26:56 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:26:56 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:26:56 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:26:56 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:26:56 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:26:56 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:26:56 LOG6[main]: Session resumption enabled
+2025.08.16 21:26:56 LOG6[main]: No trusted certificates found
+2025.08.16 21:26:56 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:26:56 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:26:56 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:26:56 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:26:56 LOG6[main]: Session resumption enabled
+2025.08.16 21:26:56 LOG6[main]: No trusted certificates found
+2025.08.16 21:26:56 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:26:56 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:26:56 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:26:56 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:26:56 LOG6[main]: Session resumption enabled
+2025.08.16 21:26:56 LOG6[main]: No trusted certificates found
+2025.08.16 21:26:56 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:26:56 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:26:56 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:26:56 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:26:56 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:26:56 LOG6[main]: Session resumption enabled
+2025.08.16 21:26:56 LOG6[main]: No trusted certificates found
+2025.08.16 21:26:56 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:26:56 LOG5[main]: Configuration successful
+2025.08.16 21:26:56 LOG6[main]: Service [nodeC-server] (FD=712) bound to 127.0.0.1:13013
+2025.08.16 21:26:56 LOG6[main]: Service [nodeC-client-A] (FD=728) bound to 127.0.0.1:30431
+2025.08.16 21:26:56 LOG6[main]: Service [nodeC-client-B] (FD=732) bound to 127.0.0.1:30432
+2025.08.16 21:26:56 LOG6[main]: Service [nodeC-client-D] (FD=736) bound to 127.0.0.1:30433
+2025.08.16 21:26:56 LOG6[main]: Service [nodeC-client-E] (FD=740) bound to 127.0.0.1:30434
+2025.08.16 21:26:56 LOG6[main]: Accepting new connections
+2025.08.16 21:26:56 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:26:56 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:27:15 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:51638
+2025.08.16 21:27:15 LOG6[0]: Peer certificate not required
+2025.08.16 21:27:15 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:27:15 LOG6[0]: No peer certificate received
+2025.08.16 21:27:15 LOG6[0]: Session id: 4CF80BD72388FB75BECD75F60A4223C75433E02584557C3ECDC77C968736C0A7
+2025.08.16 21:27:15 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:27:15 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:15 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:15 LOG6[0]: Session id: 4CF80BD72388FB75BECD75F60A4223C75433E02584557C3ECDC77C968736C0A7
+2025.08.16 21:27:15 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:27:15 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:51650
+2025.08.16 21:27:15 LOG6[1]: Peer certificate not required
+2025.08.16 21:27:15 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:27:15 LOG6[1]: No peer certificate received
+2025.08.16 21:27:15 LOG6[1]: Session id: E9E17EAE37FB77EE94199AF489F1015703D8CFB00C88CCF3998D11B05069BCA3
+2025.08.16 21:27:15 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:27:15 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:15 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:15 LOG6[1]: Session id: E9E17EAE37FB77EE94199AF489F1015703D8CFB00C88CCF3998D11B05069BCA3
+2025.08.16 21:27:15 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:27:15 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:51661
+2025.08.16 21:27:15 LOG6[2]: Peer certificate not required
+2025.08.16 21:27:15 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:27:15 LOG6[2]: No peer certificate received
+2025.08.16 21:27:15 LOG6[2]: Session id: 6F7531BCAFD3E9C8DCEC224CE7D700362BD000D0FD99A9EF24BFD59E0AE79912
+2025.08.16 21:27:15 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:27:15 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:15 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:15 LOG6[2]: Session id: 6F7531BCAFD3E9C8DCEC224CE7D700362BD000D0FD99A9EF24BFD59E0AE79912
+2025.08.16 21:27:15 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:27:16 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:27:16 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:27:16 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:51640
+2025.08.16 21:27:17 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:27:17 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:27:17 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:51666
+2025.08.16 21:27:17 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:27:17 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:27:17 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:51652
+2025.08.16 21:27:17 LOG5[4]: Service [nodeC-client-A] accepted connection from 127.0.0.1:51670
+2025.08.16 21:27:17 LOG6[4]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:27:17 LOG5[3]: Service [nodeC-client-E] accepted connection from 127.0.0.1:51671
+2025.08.16 21:27:17 LOG6[3]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:27:17 LOG5[4]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:27:17 LOG5[3]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:27:17 LOG5[4]: Service [nodeC-client-A] connected remote server from 127.0.0.1:51673
+2025.08.16 21:27:17 LOG5[3]: Service [nodeC-client-E] connected remote server from 127.0.0.1:51674
+2025.08.16 21:27:17 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:27:17 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:27:17 LOG5[5]: Service [nodeC-client-B] accepted connection from 127.0.0.1:51669
+2025.08.16 21:27:17 LOG6[4]: Peer certificate not required
+2025.08.16 21:27:17 LOG6[3]: Peer certificate not required
+2025.08.16 21:27:17 LOG6[5]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:27:17 LOG5[5]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:27:17 LOG5[5]: Service [nodeC-client-B] connected remote server from 127.0.0.1:51675
+2025.08.16 21:27:17 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:27:17 LOG6[5]: Peer certificate not required
+2025.08.16 21:27:17 LOG6[4]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:27:17 LOG6[5]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:27:17 LOG6[3]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:27:17 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:27:17 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:27:17 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:17 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:17 LOG6[4]: Session id: 
+2025.08.16 21:27:17 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:27:17 LOG6[4]: No peer certificate received
+2025.08.16 21:27:17 LOG6[4]: Session id: 23910DEC755AE78657340443DCAD69ACCE37D16629B6064B90EA6F20631AE3A2
+2025.08.16 21:27:17 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:27:17 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:17 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:17 LOG6[5]: Session id: 
+2025.08.16 21:27:17 LOG6[5]: No peer certificate received
+2025.08.16 21:27:17 LOG6[5]: Session id: 20825409FBAC535A6ACBB261B2AC19FE770C904BFCCD65AF72265D49492ECB43
+2025.08.16 21:27:17 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.08.16 21:27:17 LOG6[3]: TLS connected: previous session reused
+2025.08.16 21:27:17 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:17 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:17 LOG6[3]: Session id: 
+2025.08.16 21:27:17 LOG6[3]: No peer certificate received
+2025.08.16 21:27:17 LOG6[3]: Session id: B67214F450E551A0BAC002A588E72777756EE565051363E4EDE975FC6E4F9B42
+2025.08.16 21:27:17 LOG6[3]: TLS closed (SSL_read)
+2025.08.16 21:27:17 LOG6[3]: Read socket closed (readsocket)
+2025.08.16 21:27:17 LOG6[3]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:27:17 LOG5[3]: Connection closed: 486 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:27:17 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:51683
+2025.08.16 21:27:17 LOG6[6]: Peer certificate not required
+2025.08.16 21:27:17 LOG5[6]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:27:17 LOG6[6]: No peer certificate received
+2025.08.16 21:27:17 LOG6[6]: Session id: 8B6D93BF4553B54BED26FBFC082479F80A43800B07677F954A454E00FEF944CC
+2025.08.16 21:27:17 LOG6[6]: TLS accepted: PSK
+2025.08.16 21:27:17 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:27:17 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:27:17 LOG6[6]: Session id: 8B6D93BF4553B54BED26FBFC082479F80A43800B07677F954A454E00FEF944CC
+2025.08.16 21:27:17 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:27:17 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:27:17 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:27:17 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:51689
+2025.08.16 21:27:43 LOG6[1]: Read socket closed (readsocket)
+2025.08.16 21:27:43 LOG6[0]: Read socket closed (readsocket)
+2025.08.16 21:27:43 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:27:43 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:27:43 LOG6[0]: TLS closed (SSL_read)
+2025.08.16 21:27:43 LOG6[1]: TLS closed (SSL_read)
+2025.08.16 21:27:43 LOG5[0]: Connection closed: 22594 byte(s) sent to TLS, 23219 byte(s) sent to socket
+2025.08.16 21:27:43 LOG5[1]: Connection closed: 23024 byte(s) sent to TLS, 23110 byte(s) sent to socket
+2025.08.16 21:27:45 LOG3[2]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:27:45 LOG5[2]: Connection reset: 35410 byte(s) sent to TLS, 35285 byte(s) sent to socket
+2025.08.16 21:27:46 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:27:46 LOG5[4]: Connection reset: 34325 byte(s) sent to TLS, 34499 byte(s) sent to socket
+2025.08.16 21:27:46 LOG3[5]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:27:46 LOG5[5]: Connection reset: 35060 byte(s) sent to TLS, 34687 byte(s) sent to socket
+2025.08.16 21:27:46 LOG3[6]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:27:46 LOG5[6]: Connection reset: 35002 byte(s) sent to TLS, 34895 byte(s) sent to socket
+2025.08.16 21:27:56 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:28:31 LOG5[7]: Service [nodeC-server] accepted connection from 127.0.0.1:51723
+2025.08.16 21:28:31 LOG6[7]: Peer certificate not required
+2025.08.16 21:28:31 LOG6[7]: PSK identity not found (session resumption?)
+2025.08.16 21:28:31 LOG6[7]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:28:31 LOG6[7]: No peer certificate received
+2025.08.16 21:28:31 LOG6[7]: Session id: C21FC92485FC63B5FA43DED1601435124AA0C186071C4F58B75CB2E9587367C9
+2025.08.16 21:28:31 LOG6[7]: TLS accepted: previous session reused
+2025.08.16 21:28:31 LOG6[7]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:31 LOG6[7]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:31 LOG6[7]: Session id: C21FC92485FC63B5FA43DED1601435124AA0C186071C4F58B75CB2E9587367C9
+2025.08.16 21:28:31 LOG6[7]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:28:31 LOG5[8]: Service [nodeC-server] accepted connection from 127.0.0.1:51735
+2025.08.16 21:28:31 LOG6[8]: Peer certificate not required
+2025.08.16 21:28:31 LOG6[8]: PSK identity not found (session resumption?)
+2025.08.16 21:28:31 LOG6[8]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:28:31 LOG6[8]: No peer certificate received
+2025.08.16 21:28:31 LOG6[8]: Session id: BBB8D0CC0D03753040B9F91881DF449B9672CD8DE1E4EE6DA3BF393DACEA5FE8
+2025.08.16 21:28:31 LOG6[8]: TLS accepted: previous session reused
+2025.08.16 21:28:31 LOG6[8]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:31 LOG6[8]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:31 LOG6[8]: Session id: BBB8D0CC0D03753040B9F91881DF449B9672CD8DE1E4EE6DA3BF393DACEA5FE8
+2025.08.16 21:28:31 LOG6[8]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:28:31 LOG5[9]: Service [nodeC-server] accepted connection from 127.0.0.1:51748
+2025.08.16 21:28:31 LOG6[9]: Peer certificate not required
+2025.08.16 21:28:31 LOG6[9]: PSK identity not found (session resumption?)
+2025.08.16 21:28:31 LOG6[9]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:28:31 LOG6[9]: No peer certificate received
+2025.08.16 21:28:31 LOG6[9]: Session id: AD4261319A6C8803C65533498BCE82F968B629966B7128C90A683C2FE3CAA38E
+2025.08.16 21:28:31 LOG6[9]: TLS accepted: previous session reused
+2025.08.16 21:28:31 LOG6[9]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:31 LOG6[9]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:31 LOG6[9]: Session id: AD4261319A6C8803C65533498BCE82F968B629966B7128C90A683C2FE3CAA38E
+2025.08.16 21:28:31 LOG6[9]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:28:32 LOG5[8]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:28:32 LOG6[8]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:28:32 LOG5[8]: Service [nodeC-server] connected remote server from 127.0.0.1:51738
+2025.08.16 21:28:32 LOG5[7]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:28:32 LOG6[7]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:28:32 LOG5[7]: Service [nodeC-server] connected remote server from 127.0.0.1:51725
+2025.08.16 21:28:32 LOG6[8]: Read socket closed (readsocket)
+2025.08.16 21:28:32 LOG6[7]: Read socket closed (readsocket)
+2025.08.16 21:28:32 LOG6[8]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:28:32 LOG6[7]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:28:32 LOG6[8]: TLS closed (SSL_read)
+2025.08.16 21:28:32 LOG5[8]: Connection closed: 397 byte(s) sent to TLS, 778 byte(s) sent to socket
+2025.08.16 21:28:32 LOG6[7]: TLS closed (SSL_read)
+2025.08.16 21:28:32 LOG5[7]: Connection closed: 362 byte(s) sent to TLS, 656 byte(s) sent to socket
+2025.08.16 21:28:32 LOG5[9]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:28:32 LOG6[9]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:28:32 LOG5[9]: Service [nodeC-server] connected remote server from 127.0.0.1:51749
+2025.08.16 21:28:32 LOG6[9]: Read socket closed (readsocket)
+2025.08.16 21:28:32 LOG6[9]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:28:32 LOG6[9]: TLS closed (SSL_read)
+2025.08.16 21:28:32 LOG5[9]: Connection closed: 481 byte(s) sent to TLS, 769 byte(s) sent to socket
+2025.08.16 21:28:32 LOG5[10]: Service [nodeC-client-A] accepted connection from 127.0.0.1:51753
+2025.08.16 21:28:32 LOG5[11]: Service [nodeC-client-B] accepted connection from 127.0.0.1:51752
+2025.08.16 21:28:32 LOG6[10]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:28:32 LOG6[11]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:28:32 LOG5[12]: Service [nodeC-client-E] accepted connection from 127.0.0.1:51754
+2025.08.16 21:28:32 LOG6[12]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:28:32 LOG5[10]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:28:32 LOG5[11]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:28:32 LOG5[11]: Service [nodeC-client-B] connected remote server from 127.0.0.1:51756
+2025.08.16 21:28:32 LOG5[10]: Service [nodeC-client-A] connected remote server from 127.0.0.1:51755
+2025.08.16 21:28:32 LOG6[11]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:28:32 LOG6[11]: Attempting to resume: 20825409FBAC535A6ACBB261B2AC19FE770C904BFCCD65AF72265D49492ECB43
+2025.08.16 21:28:32 LOG6[11]: Peer certificate not required
+2025.08.16 21:28:32 LOG5[12]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:28:32 LOG6[10]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:28:32 LOG5[12]: Service [nodeC-client-E] connected remote server from 127.0.0.1:51757
+2025.08.16 21:28:32 LOG6[12]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:28:32 LOG6[12]: Attempting to resume: B67214F450E551A0BAC002A588E72777756EE565051363E4EDE975FC6E4F9B42
+2025.08.16 21:28:32 LOG6[12]: Peer certificate not required
+2025.08.16 21:28:32 LOG6[10]: Attempting to resume: 23910DEC755AE78657340443DCAD69ACCE37D16629B6064B90EA6F20631AE3A2
+2025.08.16 21:28:32 LOG6[11]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:28:32 LOG6[10]: Peer certificate not required
+2025.08.16 21:28:32 LOG6[10]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:28:32 LOG6[12]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:28:32 LOG6[11]: OCSP: Certificate chain verification disabled
+2025.08.16 21:28:32 LOG6[11]: TLS connected: previous session reused
+2025.08.16 21:28:32 LOG6[11]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:32 LOG6[11]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:32 LOG6[11]: Session id: 20825409FBAC535A6ACBB261B2AC19FE770C904BFCCD65AF72265D49492ECB43
+2025.08.16 21:28:32 LOG6[10]: OCSP: Certificate chain verification disabled
+2025.08.16 21:28:32 LOG6[11]: No peer certificate received
+2025.08.16 21:28:32 LOG6[11]: Session id: 3E8ACC03BED6A4B147CD296A2BC3D32637560295574426811A56165AACF60D4D
+2025.08.16 21:28:32 LOG6[10]: TLS connected: previous session reused
+2025.08.16 21:28:32 LOG6[10]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:32 LOG6[10]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:32 LOG6[10]: Session id: 23910DEC755AE78657340443DCAD69ACCE37D16629B6064B90EA6F20631AE3A2
+2025.08.16 21:28:32 LOG6[12]: OCSP: Certificate chain verification disabled
+2025.08.16 21:28:32 LOG6[10]: No peer certificate received
+2025.08.16 21:28:32 LOG6[10]: Session id: ADF62ED3AB42ED9F7DB4D6D74925E5F9121730F7951B5F802D46E14B16616C8C
+2025.08.16 21:28:32 LOG6[12]: TLS connected: previous session reused
+2025.08.16 21:28:32 LOG6[12]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:32 LOG6[12]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:32 LOG6[12]: Session id: B67214F450E551A0BAC002A588E72777756EE565051363E4EDE975FC6E4F9B42
+2025.08.16 21:28:32 LOG6[12]: No peer certificate received
+2025.08.16 21:28:32 LOG6[12]: Session id: AE6C4E5FB7B4FFD39B2AC4F8710E309E9FEED200B8DA91295C23E06CA4EB617D
+2025.08.16 21:28:32 LOG5[13]: Service [nodeC-server] accepted connection from 127.0.0.1:51768
+2025.08.16 21:28:32 LOG6[13]: Peer certificate not required
+2025.08.16 21:28:33 LOG6[13]: PSK identity not found (session resumption?)
+2025.08.16 21:28:33 LOG6[13]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:28:33 LOG6[13]: No peer certificate received
+2025.08.16 21:28:33 LOG6[13]: Session id: E2D4387608B42A5DF3B22AAB6FAD20DCE3C5C0019619AACD9FAC9134950BBFF1
+2025.08.16 21:28:33 LOG6[13]: TLS accepted: previous session reused
+2025.08.16 21:28:33 LOG6[13]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:28:33 LOG6[13]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:28:33 LOG6[13]: Session id: E2D4387608B42A5DF3B22AAB6FAD20DCE3C5C0019619AACD9FAC9134950BBFF1
+2025.08.16 21:28:33 LOG6[13]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:28:33 LOG5[13]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:28:33 LOG6[13]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:28:33 LOG5[13]: Service [nodeC-server] connected remote server from 127.0.0.1:51773
+2025.08.16 21:28:33 LOG6[12]: TLS closed (SSL_read)
+2025.08.16 21:28:33 LOG6[12]: Read socket closed (readsocket)
+2025.08.16 21:28:33 LOG6[12]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:28:33 LOG5[12]: Connection closed: 453 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:28:56 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:29:01 LOG3[10]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:01 LOG5[10]: Connection reset: 32620 byte(s) sent to TLS, 36356 byte(s) sent to socket
+2025.08.16 21:29:01 LOG3[11]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:01 LOG5[11]: Connection reset: 32054 byte(s) sent to TLS, 36334 byte(s) sent to socket
+2025.08.16 21:29:01 LOG3[13]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:01 LOG5[13]: Connection reset: 34257 byte(s) sent to TLS, 36276 byte(s) sent to socket
+2025.08.16 21:29:10 LOG5[main]: Terminated
+2025.08.16 21:29:13 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:29:13 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:29:13 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:29:13 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:29:13 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:29:13 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:29:13 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:29:13 LOG5[main]: FIPS mode disabled
+2025.08.16 21:29:13 LOG6[main]: Compression disabled
+2025.08.16 21:29:13 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:29:13 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:29:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:29:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:29:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:29:13 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:29:13 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:29:13 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:29:13 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:29:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:29:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:29:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:29:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:29:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:29:13 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:29:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:29:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:29:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:29:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:29:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:29:13 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:29:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:29:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:29:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:29:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:29:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:29:13 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:29:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:29:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:29:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:29:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:29:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:29:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:29:13 LOG5[main]: Configuration successful
+2025.08.16 21:29:13 LOG6[main]: Service [nodeC-server] (FD=712) bound to 127.0.0.1:13013
+2025.08.16 21:29:13 LOG6[main]: Service [nodeC-client-A] (FD=724) bound to 127.0.0.1:30431
+2025.08.16 21:29:13 LOG6[main]: Service [nodeC-client-B] (FD=728) bound to 127.0.0.1:30432
+2025.08.16 21:29:13 LOG6[main]: Service [nodeC-client-D] (FD=732) bound to 127.0.0.1:30433
+2025.08.16 21:29:13 LOG6[main]: Service [nodeC-client-E] (FD=736) bound to 127.0.0.1:30434
+2025.08.16 21:29:13 LOG6[main]: Accepting new connections
+2025.08.16 21:29:13 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:29:13 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:29:30 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:51812
+2025.08.16 21:29:30 LOG6[0]: Peer certificate not required
+2025.08.16 21:29:30 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:29:30 LOG6[0]: No peer certificate received
+2025.08.16 21:29:30 LOG6[0]: Session id: 88F442A631466CDCB0E8DA210D184EF168F71A3BA92E0A99D921FC6C50CB5005
+2025.08.16 21:29:30 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:29:30 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:30 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:30 LOG6[0]: Session id: 88F442A631466CDCB0E8DA210D184EF168F71A3BA92E0A99D921FC6C50CB5005
+2025.08.16 21:29:30 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:29:31 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:51823
+2025.08.16 21:29:31 LOG6[1]: Peer certificate not required
+2025.08.16 21:29:31 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:29:31 LOG6[1]: No peer certificate received
+2025.08.16 21:29:31 LOG6[1]: Session id: 1BFB3F30E291E898B2121F6E5B3EA36ACC072A4814F03CD47D93036B80C10D32
+2025.08.16 21:29:31 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:29:31 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:31 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:31 LOG6[1]: Session id: 1BFB3F30E291E898B2121F6E5B3EA36ACC072A4814F03CD47D93036B80C10D32
+2025.08.16 21:29:31 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:29:31 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:51835
+2025.08.16 21:29:31 LOG6[2]: Peer certificate not required
+2025.08.16 21:29:31 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:29:31 LOG6[2]: No peer certificate received
+2025.08.16 21:29:31 LOG6[2]: Session id: B62B39629F0E8F1FD40BAF05BA24FC2D6D11B09024CF928496F80404D278A639
+2025.08.16 21:29:31 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:29:31 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:31 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:31 LOG6[2]: Session id: B62B39629F0E8F1FD40BAF05BA24FC2D6D11B09024CF928496F80404D278A639
+2025.08.16 21:29:31 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:29:32 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:29:32 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:29:32 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:51815
+2025.08.16 21:29:32 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:29:32 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:29:32 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:51837
+2025.08.16 21:29:32 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:29:32 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:29:32 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:51826
+2025.08.16 21:29:32 LOG5[3]: Service [nodeC-server] accepted connection from 127.0.0.1:51843
+2025.08.16 21:29:32 LOG6[3]: Peer certificate not required
+2025.08.16 21:29:32 LOG5[3]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:29:32 LOG6[3]: No peer certificate received
+2025.08.16 21:29:32 LOG6[3]: Session id: 63979C909D01F0051A8926D52441EA7A3E8ECCF943025535C0D19B8F16691708
+2025.08.16 21:29:32 LOG6[3]: TLS accepted: PSK
+2025.08.16 21:29:32 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:32 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:32 LOG6[3]: Session id: 63979C909D01F0051A8926D52441EA7A3E8ECCF943025535C0D19B8F16691708
+2025.08.16 21:29:32 LOG6[3]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:29:32 LOG5[3]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:29:32 LOG6[3]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:29:32 LOG5[3]: Service [nodeC-server] connected remote server from 127.0.0.1:51849
+2025.08.16 21:29:32 LOG5[5]: Service [nodeC-client-B] accepted connection from 127.0.0.1:51853
+2025.08.16 21:29:32 LOG6[5]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:29:32 LOG5[4]: Service [nodeC-client-A] accepted connection from 127.0.0.1:51852
+2025.08.16 21:29:32 LOG6[4]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:29:32 LOG5[6]: Service [nodeC-client-E] accepted connection from 127.0.0.1:51854
+2025.08.16 21:29:32 LOG6[6]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:29:32 LOG5[5]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:29:32 LOG5[5]: Service [nodeC-client-B] connected remote server from 127.0.0.1:51856
+2025.08.16 21:29:32 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:29:32 LOG6[5]: Peer certificate not required
+2025.08.16 21:29:32 LOG5[4]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:29:32 LOG5[4]: Service [nodeC-client-A] connected remote server from 127.0.0.1:51857
+2025.08.16 21:29:32 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:29:32 LOG6[4]: Peer certificate not required
+2025.08.16 21:29:32 LOG6[5]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:29:32 LOG5[6]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:29:32 LOG5[6]: Service [nodeC-client-E] connected remote server from 127.0.0.1:51858
+2025.08.16 21:29:32 LOG6[6]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:29:32 LOG6[6]: Peer certificate not required
+2025.08.16 21:29:32 LOG6[6]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:29:32 LOG6[4]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:29:32 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:29:32 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:29:32 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:32 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:32 LOG6[5]: Session id: 
+2025.08.16 21:29:32 LOG6[5]: No peer certificate received
+2025.08.16 21:29:32 LOG6[5]: Session id: 47C6731DF49ECA21A5ADD33D827D026FDE3F81B8B543DA37D163DD04475E2B7A
+2025.08.16 21:29:32 LOG6[6]: OCSP: Certificate chain verification disabled
+2025.08.16 21:29:32 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:29:32 LOG6[6]: TLS connected: previous session reused
+2025.08.16 21:29:32 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:29:32 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:32 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:29:32 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:32 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:29:32 LOG6[6]: Session id: 
+2025.08.16 21:29:32 LOG6[4]: Session id: 
+2025.08.16 21:29:32 LOG6[6]: No peer certificate received
+2025.08.16 21:29:32 LOG6[6]: Session id: 999F1A22F0F3454B90E33365EFD2677E672D4E7D2ADADF3EA1608A2585AC349B
+2025.08.16 21:29:32 LOG6[4]: No peer certificate received
+2025.08.16 21:29:32 LOG6[4]: Session id: B79FA97C6DEFFE187E7DDA52A1145AE927BF298FFDAEB90D8EAE51673038FCCE
+2025.08.16 21:29:32 LOG6[6]: TLS closed (SSL_read)
+2025.08.16 21:29:32 LOG6[6]: Read socket closed (readsocket)
+2025.08.16 21:29:32 LOG6[6]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:29:32 LOG5[6]: Connection closed: 430 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:29:49 LOG3[3]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:49 LOG5[3]: Connection reset: 23951 byte(s) sent to TLS, 24054 byte(s) sent to socket
+2025.08.16 21:29:49 LOG3[2]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:49 LOG5[2]: Connection reset: 24677 byte(s) sent to TLS, 24321 byte(s) sent to socket
+2025.08.16 21:29:50 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:50 LOG5[0]: Connection reset: 16613 byte(s) sent to TLS, 16923 byte(s) sent to socket
+2025.08.16 21:29:50 LOG3[1]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:50 LOG5[1]: Connection reset: 16813 byte(s) sent to TLS, 17374 byte(s) sent to socket
+2025.08.16 21:29:50 LOG3[5]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:50 LOG5[5]: Connection reset: 24203 byte(s) sent to TLS, 24490 byte(s) sent to socket
+2025.08.16 21:29:50 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:29:50 LOG5[4]: Connection reset: 23794 byte(s) sent to TLS, 23986 byte(s) sent to socket
+2025.08.16 21:30:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:31:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:32:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:33:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:34:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:35:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:36:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:36:24 LOG5[main]: Terminated
+2025.08.16 21:36:27 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:36:27 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:36:27 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:36:27 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:36:27 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:36:27 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:36:27 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:36:27 LOG5[main]: FIPS mode disabled
+2025.08.16 21:36:27 LOG6[main]: Compression disabled
+2025.08.16 21:36:27 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:36:27 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:36:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:36:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:36:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:36:27 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:36:27 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:36:27 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:36:27 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:36:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:36:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:36:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:36:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:36:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:36:27 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:36:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:36:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:36:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:36:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:36:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:36:27 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:36:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:36:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:36:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:36:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:36:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:36:27 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:36:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:36:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:36:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:36:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:36:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:36:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:36:27 LOG5[main]: Configuration successful
+2025.08.16 21:36:27 LOG6[main]: Service [nodeC-server] (FD=712) bound to 127.0.0.1:13013
+2025.08.16 21:36:27 LOG6[main]: Service [nodeC-client-A] (FD=744) bound to 127.0.0.1:30431
+2025.08.16 21:36:27 LOG6[main]: Service [nodeC-client-B] (FD=748) bound to 127.0.0.1:30432
+2025.08.16 21:36:27 LOG6[main]: Service [nodeC-client-D] (FD=752) bound to 127.0.0.1:30433
+2025.08.16 21:36:27 LOG6[main]: Service [nodeC-client-E] (FD=756) bound to 127.0.0.1:30434
+2025.08.16 21:36:27 LOG6[main]: Accepting new connections
+2025.08.16 21:36:27 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:36:27 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:37:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:38:00 LOG5[main]: Terminated
+2025.08.16 21:38:08 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:38:08 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:38:08 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:38:08 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:38:08 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:38:08 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:38:08 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:38:08 LOG5[main]: FIPS mode disabled
+2025.08.16 21:38:08 LOG6[main]: Compression disabled
+2025.08.16 21:38:08 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:38:08 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:38:08 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:38:08 LOG6[main]: Session resumption enabled
+2025.08.16 21:38:08 LOG6[main]: No trusted certificates found
+2025.08.16 21:38:08 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:38:08 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:38:08 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:38:08 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:38:08 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:38:08 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:38:08 LOG6[main]: Session resumption enabled
+2025.08.16 21:38:08 LOG6[main]: No trusted certificates found
+2025.08.16 21:38:08 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:38:08 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:38:08 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:38:08 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:38:08 LOG6[main]: Session resumption enabled
+2025.08.16 21:38:08 LOG6[main]: No trusted certificates found
+2025.08.16 21:38:08 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:38:08 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:38:08 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:38:08 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:38:08 LOG6[main]: Session resumption enabled
+2025.08.16 21:38:08 LOG6[main]: No trusted certificates found
+2025.08.16 21:38:08 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:38:08 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:38:08 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:38:08 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:38:08 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:38:08 LOG6[main]: Session resumption enabled
+2025.08.16 21:38:08 LOG6[main]: No trusted certificates found
+2025.08.16 21:38:08 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:38:08 LOG5[main]: Configuration successful
+2025.08.16 21:38:08 LOG6[main]: Service [nodeC-server] (FD=668) bound to 127.0.0.1:13013
+2025.08.16 21:38:08 LOG6[main]: Service [nodeC-client-A] (FD=744) bound to 127.0.0.1:30431
+2025.08.16 21:38:08 LOG6[main]: Service [nodeC-client-B] (FD=748) bound to 127.0.0.1:30432
+2025.08.16 21:38:08 LOG6[main]: Service [nodeC-client-D] (FD=752) bound to 127.0.0.1:30433
+2025.08.16 21:38:08 LOG6[main]: Service [nodeC-client-E] (FD=756) bound to 127.0.0.1:30434
+2025.08.16 21:38:08 LOG6[main]: Accepting new connections
+2025.08.16 21:38:08 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:38:08 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:39:08 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:39:15 LOG5[main]: Terminated
+2025.08.16 21:39:40 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:39:40 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:39:40 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:39:40 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:39:40 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:39:40 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:39:40 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:39:40 LOG5[main]: FIPS mode disabled
+2025.08.16 21:39:40 LOG6[main]: Compression disabled
+2025.08.16 21:39:40 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:39:40 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:39:40 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:39:40 LOG6[main]: Session resumption enabled
+2025.08.16 21:39:40 LOG6[main]: No trusted certificates found
+2025.08.16 21:39:40 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:39:40 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:39:40 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:39:40 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:39:40 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:39:40 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:39:40 LOG6[main]: Session resumption enabled
+2025.08.16 21:39:40 LOG6[main]: No trusted certificates found
+2025.08.16 21:39:40 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:39:40 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:39:40 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:39:40 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:39:40 LOG6[main]: Session resumption enabled
+2025.08.16 21:39:40 LOG6[main]: No trusted certificates found
+2025.08.16 21:39:40 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:39:40 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:39:40 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:39:40 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:39:40 LOG6[main]: Session resumption enabled
+2025.08.16 21:39:40 LOG6[main]: No trusted certificates found
+2025.08.16 21:39:40 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:39:40 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:39:40 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:39:40 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:39:40 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:39:40 LOG6[main]: Session resumption enabled
+2025.08.16 21:39:40 LOG6[main]: No trusted certificates found
+2025.08.16 21:39:40 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:39:40 LOG5[main]: Configuration successful
+2025.08.16 21:39:40 LOG6[main]: Service [nodeC-server] (FD=740) bound to 127.0.0.1:13013
+2025.08.16 21:39:40 LOG6[main]: Service [nodeC-client-A] (FD=752) bound to 127.0.0.1:30431
+2025.08.16 21:39:40 LOG6[main]: Service [nodeC-client-B] (FD=756) bound to 127.0.0.1:30432
+2025.08.16 21:39:40 LOG6[main]: Service [nodeC-client-D] (FD=760) bound to 127.0.0.1:30433
+2025.08.16 21:39:40 LOG6[main]: Service [nodeC-client-E] (FD=764) bound to 127.0.0.1:30434
+2025.08.16 21:39:40 LOG6[main]: Accepting new connections
+2025.08.16 21:39:40 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:39:40 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:40:40 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:41:09 LOG5[main]: Terminated
+2025.08.16 21:41:13 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:41:13 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:41:13 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:41:13 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:41:13 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:41:13 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:41:13 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:41:13 LOG5[main]: FIPS mode disabled
+2025.08.16 21:41:13 LOG6[main]: Compression disabled
+2025.08.16 21:41:13 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:41:13 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:41:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:41:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:41:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:41:13 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:41:13 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:41:13 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:41:13 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:41:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:41:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:41:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:41:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:41:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:41:13 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:41:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:41:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:41:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:41:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:41:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:41:13 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:41:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:41:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:41:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:41:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:41:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:41:13 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:41:13 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:41:13 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:41:13 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:41:13 LOG6[main]: Session resumption enabled
+2025.08.16 21:41:13 LOG6[main]: No trusted certificates found
+2025.08.16 21:41:13 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:41:13 LOG5[main]: Configuration successful
+2025.08.16 21:41:13 LOG6[main]: Service [nodeC-server] (FD=712) bound to 127.0.0.1:13013
+2025.08.16 21:41:13 LOG6[main]: Service [nodeC-client-A] (FD=736) bound to 127.0.0.1:30431
+2025.08.16 21:41:13 LOG6[main]: Service [nodeC-client-B] (FD=740) bound to 127.0.0.1:30432
+2025.08.16 21:41:13 LOG6[main]: Service [nodeC-client-D] (FD=744) bound to 127.0.0.1:30433
+2025.08.16 21:41:13 LOG6[main]: Service [nodeC-client-E] (FD=748) bound to 127.0.0.1:30434
+2025.08.16 21:41:13 LOG6[main]: Accepting new connections
+2025.08.16 21:41:13 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:41:13 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:41:31 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:19659
+2025.08.16 21:41:31 LOG6[0]: Peer certificate not required
+2025.08.16 21:41:31 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:41:31 LOG6[0]: No peer certificate received
+2025.08.16 21:41:31 LOG6[0]: Session id: E3CC3EB2A320D44D585008D69C2D989862D3ACC4268E50E22DCCB4025577287D
+2025.08.16 21:41:31 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:41:31 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:31 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:31 LOG6[0]: Session id: E3CC3EB2A320D44D585008D69C2D989862D3ACC4268E50E22DCCB4025577287D
+2025.08.16 21:41:31 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:41:31 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:19671
+2025.08.16 21:41:31 LOG6[1]: Peer certificate not required
+2025.08.16 21:41:31 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:41:31 LOG6[1]: No peer certificate received
+2025.08.16 21:41:31 LOG6[1]: Session id: 1E4C42FCF3A7212496DD9848EEFA0C9D58536AB82E8ADC7EE1F6145005A4B19F
+2025.08.16 21:41:31 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:41:31 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:31 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:31 LOG6[1]: Session id: 1E4C42FCF3A7212496DD9848EEFA0C9D58536AB82E8ADC7EE1F6145005A4B19F
+2025.08.16 21:41:31 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:41:31 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:19682
+2025.08.16 21:41:31 LOG6[2]: Peer certificate not required
+2025.08.16 21:41:31 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:41:31 LOG6[2]: No peer certificate received
+2025.08.16 21:41:31 LOG6[2]: Session id: 7986D1B164BDEB765DA51576AA1B7EC5AA295C6E48E39BE6F89532A08151FB08
+2025.08.16 21:41:31 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:41:31 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:31 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:31 LOG6[2]: Session id: 7986D1B164BDEB765DA51576AA1B7EC5AA295C6E48E39BE6F89532A08151FB08
+2025.08.16 21:41:31 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:41:32 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:41:32 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:41:32 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:19673
+2025.08.16 21:41:32 LOG6[1]: Read socket closed (readsocket)
+2025.08.16 21:41:32 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:41:32 LOG6[1]: TLS closed (SSL_read)
+2025.08.16 21:41:32 LOG5[1]: Connection closed: 408 byte(s) sent to TLS, 636 byte(s) sent to socket
+2025.08.16 21:41:32 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:41:32 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:41:32 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:19686
+2025.08.16 21:41:32 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:41:32 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:41:32 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:19663
+2025.08.16 21:41:32 LOG6[2]: Read socket closed (readsocket)
+2025.08.16 21:41:32 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:41:32 LOG6[2]: TLS closed (SSL_read)
+2025.08.16 21:41:32 LOG5[2]: Connection closed: 434 byte(s) sent to TLS, 718 byte(s) sent to socket
+2025.08.16 21:41:32 LOG6[0]: Read socket closed (readsocket)
+2025.08.16 21:41:32 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:41:32 LOG6[0]: TLS closed (SSL_read)
+2025.08.16 21:41:32 LOG5[0]: Connection closed: 455 byte(s) sent to TLS, 704 byte(s) sent to socket
+2025.08.16 21:41:32 LOG5[5]: Service [nodeC-client-E] accepted connection from 127.0.0.1:19687
+2025.08.16 21:41:32 LOG6[5]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:41:32 LOG5[5]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:41:32 LOG5[5]: Service [nodeC-client-E] connected remote server from 127.0.0.1:19691
+2025.08.16 21:41:32 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:41:32 LOG6[5]: Peer certificate not required
+2025.08.16 21:41:32 LOG5[3]: Service [nodeC-client-A] accepted connection from 127.0.0.1:19688
+2025.08.16 21:41:32 LOG6[3]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:41:32 LOG6[5]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:41:32 LOG5[3]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:41:32 LOG5[3]: Service [nodeC-client-A] connected remote server from 127.0.0.1:19692
+2025.08.16 21:41:32 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:41:32 LOG5[4]: Service [nodeC-client-B] accepted connection from 127.0.0.1:19689
+2025.08.16 21:41:32 LOG6[4]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:41:32 LOG6[3]: Peer certificate not required
+2025.08.16 21:41:32 LOG5[4]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:41:32 LOG5[4]: Service [nodeC-client-B] connected remote server from 127.0.0.1:19693
+2025.08.16 21:41:32 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:41:32 LOG6[4]: Peer certificate not required
+2025.08.16 21:41:32 LOG6[4]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:41:32 LOG6[3]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:41:32 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:41:32 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.08.16 21:41:32 LOG6[3]: TLS connected: previous session reused
+2025.08.16 21:41:32 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:32 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:32 LOG6[3]: Session id: 
+2025.08.16 21:41:32 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:41:32 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:32 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:32 LOG6[4]: Session id: 
+2025.08.16 21:41:32 LOG6[3]: No peer certificate received
+2025.08.16 21:41:32 LOG6[4]: No peer certificate received
+2025.08.16 21:41:32 LOG6[3]: Session id: 5E16502722002F70E4D25DE21EA9A819AAD7DB25E67D2895809F1ED7846D8971
+2025.08.16 21:41:32 LOG6[4]: Session id: A7695BFB90F805F2AF99AA2A7CD9FCB959208EB21F846C53C25C9288706CB607
+2025.08.16 21:41:32 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:41:32 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:41:32 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:32 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:32 LOG6[5]: Session id: 
+2025.08.16 21:41:32 LOG6[5]: No peer certificate received
+2025.08.16 21:41:32 LOG6[5]: Session id: 2CCB3672F8221D6E59CD1E05E3C43AF67473E34EE51EA39F968E3E44E49D60FE
+2025.08.16 21:41:32 LOG6[5]: TLS closed (SSL_read)
+2025.08.16 21:41:32 LOG6[5]: Read socket closed (readsocket)
+2025.08.16 21:41:32 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:41:32 LOG5[5]: Connection closed: 537 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:41:33 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:19706
+2025.08.16 21:41:33 LOG6[6]: Peer certificate not required
+2025.08.16 21:41:33 LOG5[6]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:41:33 LOG6[6]: No peer certificate received
+2025.08.16 21:41:33 LOG6[6]: Session id: 5CF9E9074A54D5E50287D82678C2E9CA533FAF89504051F490D3B30260610A77
+2025.08.16 21:41:33 LOG6[6]: TLS accepted: PSK
+2025.08.16 21:41:33 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:41:33 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:41:33 LOG6[6]: Session id: 5CF9E9074A54D5E50287D82678C2E9CA533FAF89504051F490D3B30260610A77
+2025.08.16 21:41:33 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:41:33 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:41:33 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:41:33 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:19708
+2025.08.16 21:42:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:42:33 LOG5[7]: Service [nodeC-server] accepted connection from 127.0.0.1:19741
+2025.08.16 21:42:33 LOG6[7]: Peer certificate not required
+2025.08.16 21:42:33 LOG6[7]: PSK identity not found (session resumption?)
+2025.08.16 21:42:33 LOG6[7]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:42:33 LOG6[7]: No peer certificate received
+2025.08.16 21:42:33 LOG6[7]: Session id: 268F8879AC9FCD2CBEC2057A64D29455A5EC2A2192526AE49DFC8B01A3AC9124
+2025.08.16 21:42:33 LOG6[7]: TLS accepted: previous session reused
+2025.08.16 21:42:33 LOG6[7]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:42:33 LOG6[7]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:42:33 LOG6[7]: Session id: 268F8879AC9FCD2CBEC2057A64D29455A5EC2A2192526AE49DFC8B01A3AC9124
+2025.08.16 21:42:33 LOG6[7]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:42:33 LOG5[7]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:42:33 LOG6[7]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:42:33 LOG5[7]: Service [nodeC-server] connected remote server from 127.0.0.1:19742
+2025.08.16 21:43:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:44:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:45:13 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:45:32 LOG3[7]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:45:32 LOG5[7]: Connection reset: 225513 byte(s) sent to TLS, 224032 byte(s) sent to socket
+2025.08.16 21:45:32 LOG3[3]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:45:32 LOG5[3]: Connection reset: 291315 byte(s) sent to TLS, 296993 byte(s) sent to socket
+2025.08.16 21:45:32 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:45:32 LOG5[4]: Connection reset: 292645 byte(s) sent to TLS, 297429 byte(s) sent to socket
+2025.08.16 21:45:32 LOG3[6]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:45:32 LOG5[6]: Connection reset: 294762 byte(s) sent to TLS, 297185 byte(s) sent to socket
+2025.08.16 21:45:33 LOG5[8]: Service [nodeC-server] accepted connection from 127.0.0.1:19809
+2025.08.16 21:45:33 LOG6[8]: Peer certificate not required
+2025.08.16 21:45:33 LOG6[8]: PSK identity not found (session resumption?)
+2025.08.16 21:45:33 LOG6[8]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:45:33 LOG6[8]: No peer certificate received
+2025.08.16 21:45:33 LOG6[8]: Session id: 27ADE3A89D359832644ECC398D6515FB1DD0A6ED03B4EB9527704E1DB5A3FDC9
+2025.08.16 21:45:33 LOG6[8]: TLS accepted: previous session reused
+2025.08.16 21:45:33 LOG6[8]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:45:33 LOG6[8]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:45:33 LOG6[8]: Session id: 27ADE3A89D359832644ECC398D6515FB1DD0A6ED03B4EB9527704E1DB5A3FDC9
+2025.08.16 21:45:33 LOG6[8]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:45:33 LOG5[9]: Service [nodeC-server] accepted connection from 127.0.0.1:19813
+2025.08.16 21:45:33 LOG6[9]: Peer certificate not required
+2025.08.16 21:45:33 LOG6[9]: PSK identity not found (session resumption?)
+2025.08.16 21:45:33 LOG6[9]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:45:33 LOG6[9]: No peer certificate received
+2025.08.16 21:45:33 LOG6[9]: Session id: AA00F48372B893B27BA53B412646FF63A51FA9C06DD3BF064A04EF60C5BF4C62
+2025.08.16 21:45:33 LOG6[9]: TLS accepted: previous session reused
+2025.08.16 21:45:33 LOG6[9]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:45:33 LOG6[9]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:45:33 LOG6[9]: Session id: AA00F48372B893B27BA53B412646FF63A51FA9C06DD3BF064A04EF60C5BF4C62
+2025.08.16 21:45:33 LOG6[9]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:45:35 LOG3[8]: s_connect: connect 127.0.0.1:30303: Connection refused (WSAECONNREFUSED) (10061)
+2025.08.16 21:45:35 LOG3[8]: No more addresses to connect
+2025.08.16 21:45:35 LOG5[8]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:45:35 LOG3[9]: s_connect: connect 127.0.0.1:30303: Connection refused (WSAECONNREFUSED) (10061)
+2025.08.16 21:45:35 LOG3[9]: No more addresses to connect
+2025.08.16 21:45:35 LOG5[9]: Connection reset: 0 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:45:42 LOG5[main]: Terminated
+2025.08.16 21:46:27 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:46:27 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:46:27 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:46:27 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:46:27 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:46:27 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:46:27 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:46:27 LOG5[main]: FIPS mode disabled
+2025.08.16 21:46:27 LOG6[main]: Compression disabled
+2025.08.16 21:46:27 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:46:27 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:46:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:46:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:46:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:46:27 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:46:27 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:46:27 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:46:27 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:46:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:46:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:46:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:46:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:46:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:46:27 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:46:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:46:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:46:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:46:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:46:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:46:27 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:46:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:46:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:46:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:46:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:46:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:46:27 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:46:27 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:46:27 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:46:27 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:46:27 LOG6[main]: Session resumption enabled
+2025.08.16 21:46:27 LOG6[main]: No trusted certificates found
+2025.08.16 21:46:27 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:46:27 LOG5[main]: Configuration successful
+2025.08.16 21:46:27 LOG6[main]: Service [nodeC-server] (FD=716) bound to 127.0.0.1:13013
+2025.08.16 21:46:27 LOG6[main]: Service [nodeC-client-A] (FD=728) bound to 127.0.0.1:30431
+2025.08.16 21:46:27 LOG6[main]: Service [nodeC-client-B] (FD=732) bound to 127.0.0.1:30432
+2025.08.16 21:46:27 LOG6[main]: Service [nodeC-client-D] (FD=736) bound to 127.0.0.1:30433
+2025.08.16 21:46:27 LOG6[main]: Service [nodeC-client-E] (FD=740) bound to 127.0.0.1:30434
+2025.08.16 21:46:27 LOG6[main]: Accepting new connections
+2025.08.16 21:46:27 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:46:27 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:46:45 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:19862
+2025.08.16 21:46:45 LOG6[0]: Peer certificate not required
+2025.08.16 21:46:45 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:46:45 LOG6[0]: No peer certificate received
+2025.08.16 21:46:45 LOG6[0]: Session id: 92C8A1CB97B6A728208200EC45D40BA238B055CA692F556E0F74398EAEB89AD1
+2025.08.16 21:46:45 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:46:45 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:45 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:45 LOG6[0]: Session id: 92C8A1CB97B6A728208200EC45D40BA238B055CA692F556E0F74398EAEB89AD1
+2025.08.16 21:46:45 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:46:45 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:19875
+2025.08.16 21:46:45 LOG6[1]: Peer certificate not required
+2025.08.16 21:46:45 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:46:45 LOG6[1]: No peer certificate received
+2025.08.16 21:46:45 LOG6[1]: Session id: 4B02E61CEDFD57F743AE2FC90B1DC60A224E981801C2FE13B063C976A98347B1
+2025.08.16 21:46:45 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:46:45 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:45 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:45 LOG6[1]: Session id: 4B02E61CEDFD57F743AE2FC90B1DC60A224E981801C2FE13B063C976A98347B1
+2025.08.16 21:46:45 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:46:45 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:19888
+2025.08.16 21:46:45 LOG6[2]: Peer certificate not required
+2025.08.16 21:46:45 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:46:45 LOG6[2]: No peer certificate received
+2025.08.16 21:46:45 LOG6[2]: Session id: D9506E191D1A4CAD6ADE8EECB2332C5FF1D4ECA881B1DED31521A62BD321880D
+2025.08.16 21:46:45 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:46:45 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:45 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:45 LOG6[2]: Session id: D9506E191D1A4CAD6ADE8EECB2332C5FF1D4ECA881B1DED31521A62BD321880D
+2025.08.16 21:46:45 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:46:46 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:46:46 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:46:46 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:19878
+2025.08.16 21:46:46 LOG6[1]: Read socket closed (readsocket)
+2025.08.16 21:46:46 LOG6[1]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:46:46 LOG6[1]: TLS closed (SSL_read)
+2025.08.16 21:46:46 LOG5[1]: Connection closed: 451 byte(s) sent to TLS, 749 byte(s) sent to socket
+2025.08.16 21:46:46 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:46:46 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:46:46 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:19889
+2025.08.16 21:46:46 LOG6[2]: Read socket closed (readsocket)
+2025.08.16 21:46:46 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:46:46 LOG6[2]: TLS closed (SSL_read)
+2025.08.16 21:46:46 LOG5[2]: Connection closed: 507 byte(s) sent to TLS, 661 byte(s) sent to socket
+2025.08.16 21:46:46 LOG5[3]: Service [nodeC-client-B] accepted connection from 127.0.0.1:19892
+2025.08.16 21:46:46 LOG6[3]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:46:46 LOG5[4]: Service [nodeC-client-A] accepted connection from 127.0.0.1:19891
+2025.08.16 21:46:46 LOG6[4]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:46:46 LOG5[5]: Service [nodeC-client-E] accepted connection from 127.0.0.1:19893
+2025.08.16 21:46:46 LOG6[5]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:46:46 LOG5[3]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:46:46 LOG5[3]: Service [nodeC-client-B] connected remote server from 127.0.0.1:19894
+2025.08.16 21:46:46 LOG5[4]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:46:46 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:46:46 LOG5[4]: Service [nodeC-client-A] connected remote server from 127.0.0.1:19895
+2025.08.16 21:46:46 LOG6[3]: Peer certificate not required
+2025.08.16 21:46:46 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:46:46 LOG5[5]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:46:46 LOG5[5]: Service [nodeC-client-E] connected remote server from 127.0.0.1:19896
+2025.08.16 21:46:46 LOG6[4]: Peer certificate not required
+2025.08.16 21:46:46 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:46:46 LOG6[5]: Peer certificate not required
+2025.08.16 21:46:46 LOG6[4]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:46:46 LOG6[3]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:46:46 LOG6[5]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:46:46 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:46:46 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:46:46 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:46 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:46 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.08.16 21:46:46 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:46:46 LOG6[4]: Session id: 
+2025.08.16 21:46:46 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:46:46 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:46 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:46 LOG6[5]: Session id: 
+2025.08.16 21:46:46 LOG6[3]: TLS connected: previous session reused
+2025.08.16 21:46:46 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:46 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:46 LOG6[3]: Session id: 
+2025.08.16 21:46:46 LOG6[4]: No peer certificate received
+2025.08.16 21:46:46 LOG6[4]: Session id: 85D6536F5DF0882074F1F31F3E720148EAAB0CBDDCFC98AF8D4EF55A327ECA0D
+2025.08.16 21:46:46 LOG6[5]: No peer certificate received
+2025.08.16 21:46:46 LOG6[5]: Session id: BB87030BBE61BFBC7E61DDF0E176605FD38A25EC3C5CBAF768383C7BA8801BE6
+2025.08.16 21:46:46 LOG6[3]: No peer certificate received
+2025.08.16 21:46:46 LOG6[3]: Session id: 9BEE93043206450C59C6F530C635136494C38C2F1546846778C6DE7663C315D5
+2025.08.16 21:46:46 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:46:46 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:46:46 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:19866
+2025.08.16 21:46:46 LOG6[5]: TLS closed (SSL_read)
+2025.08.16 21:46:46 LOG6[5]: Read socket closed (readsocket)
+2025.08.16 21:46:46 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:46:46 LOG5[5]: Connection closed: 386 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:46:46 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:19904
+2025.08.16 21:46:46 LOG6[6]: Peer certificate not required
+2025.08.16 21:46:46 LOG5[6]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:46:46 LOG6[6]: No peer certificate received
+2025.08.16 21:46:46 LOG6[6]: Session id: DB5A33A5B13B8F110A9ECD51BACB17FCF086DE3EC78713C313D1AB863EEBB185
+2025.08.16 21:46:46 LOG6[6]: TLS accepted: PSK
+2025.08.16 21:46:46 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:46:46 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:46:46 LOG6[6]: Session id: DB5A33A5B13B8F110A9ECD51BACB17FCF086DE3EC78713C313D1AB863EEBB185
+2025.08.16 21:46:46 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:46:46 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:46:46 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:46:46 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:19909
+2025.08.16 21:47:11 LOG6[0]: Read socket closed (readsocket)
+2025.08.16 21:47:11 LOG6[0]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:47:11 LOG6[0]: TLS closed (SSL_read)
+2025.08.16 21:47:11 LOG5[0]: Connection closed: 21107 byte(s) sent to TLS, 23822 byte(s) sent to socket
+2025.08.16 21:47:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:47:47 LOG5[7]: Service [nodeC-server] accepted connection from 127.0.0.1:19970
+2025.08.16 21:47:47 LOG6[7]: Peer certificate not required
+2025.08.16 21:47:47 LOG6[7]: PSK identity not found (session resumption?)
+2025.08.16 21:47:47 LOG6[7]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:47:47 LOG6[7]: No peer certificate received
+2025.08.16 21:47:47 LOG6[7]: Session id: 5404F3DF7F01F0AE1823BE4C428E14B8CF25A178FEFBD6DA39AA4DE0C423AB9E
+2025.08.16 21:47:47 LOG6[7]: TLS accepted: previous session reused
+2025.08.16 21:47:47 LOG6[7]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:47:47 LOG6[7]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:47:47 LOG6[7]: Session id: 5404F3DF7F01F0AE1823BE4C428E14B8CF25A178FEFBD6DA39AA4DE0C423AB9E
+2025.08.16 21:47:47 LOG6[7]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:47:47 LOG5[7]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:47:47 LOG6[7]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:47:47 LOG5[7]: Service [nodeC-server] connected remote server from 127.0.0.1:19971
+2025.08.16 21:48:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:49:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:50:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:51:27 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:52:06 LOG3[7]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:52:06 LOG5[7]: Connection reset: 326019 byte(s) sent to TLS, 321942 byte(s) sent to socket
+2025.08.16 21:52:07 LOG3[6]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:52:07 LOG5[6]: Connection reset: 400196 byte(s) sent to TLS, 401437 byte(s) sent to socket
+2025.08.16 21:52:08 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:52:08 LOG5[4]: Connection reset: 395458 byte(s) sent to TLS, 399948 byte(s) sent to socket
+2025.08.16 21:52:08 LOG3[3]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:52:08 LOG5[3]: Connection reset: 403073 byte(s) sent to TLS, 402662 byte(s) sent to socket
+2025.08.16 21:52:15 LOG5[main]: Terminated
+2025.08.16 21:52:25 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:52:25 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.08.16 21:52:25 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.08.16 21:52:25 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.08.16 21:52:25 LOG6[main]: Initializing inetd mode configuration
+2025.08.16 21:52:25 LOG5[main]: Reading configuration from file C:\Users\89\Desktop\trial\dApp_demo\besu_network\stunnel\config\tls_proxy\config\nodeC.conf
+2025.08.16 21:52:25 LOG5[main]: UTF-8 byte order mark not detected
+2025.08.16 21:52:25 LOG5[main]: FIPS mode disabled
+2025.08.16 21:52:25 LOG6[main]: Compression disabled
+2025.08.16 21:52:25 LOG6[main]: Initializing service [nodeC-server]
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.08.16 21:52:25 LOG6[main]: PSK identities: 4 retrieved
+2025.08.16 21:52:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:52:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:52:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:52:25 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.08.16 21:52:25 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.08.16 21:52:25 LOG6[main]: Using dynamic DH parameters
+2025.08.16 21:52:25 LOG6[main]: Initializing service [nodeC-client-A]
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.08.16 21:52:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:52:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:52:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:52:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:52:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:52:25 LOG6[main]: Initializing service [nodeC-client-B]
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.08.16 21:52:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:52:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:52:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:52:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:52:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:52:25 LOG6[main]: Initializing service [nodeC-client-D]
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.08.16 21:52:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:52:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:52:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:52:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:52:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:52:25 LOG6[main]: Initializing service [nodeC-client-E]
+2025.08.16 21:52:25 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.08.16 21:52:25 LOG6[main]: PSK identities: 1 retrieved
+2025.08.16 21:52:25 LOG6[main]: OpenSSL security level is used: 2
+2025.08.16 21:52:25 LOG6[main]: Session resumption enabled
+2025.08.16 21:52:25 LOG6[main]: No trusted certificates found
+2025.08.16 21:52:25 LOG6[main]: DH initialization skipped: client section
+2025.08.16 21:52:25 LOG5[main]: Configuration successful
+2025.08.16 21:52:25 LOG6[main]: Service [nodeC-server] (FD=768) bound to 127.0.0.1:13013
+2025.08.16 21:52:25 LOG6[main]: Service [nodeC-client-A] (FD=624) bound to 127.0.0.1:30431
+2025.08.16 21:52:25 LOG6[main]: Service [nodeC-client-B] (FD=644) bound to 127.0.0.1:30432
+2025.08.16 21:52:25 LOG6[main]: Service [nodeC-client-D] (FD=684) bound to 127.0.0.1:30433
+2025.08.16 21:52:25 LOG6[main]: Service [nodeC-client-E] (FD=664) bound to 127.0.0.1:30434
+2025.08.16 21:52:25 LOG6[main]: Accepting new connections
+2025.08.16 21:52:25 LOG6[per-day]: Executing per-day jobs
+2025.08.16 21:52:25 LOG5[per-day]: Updating DH parameters
+2025.08.16 21:52:43 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:20084
+2025.08.16 21:52:43 LOG6[0]: Peer certificate not required
+2025.08.16 21:52:43 LOG5[0]: Key configured for PSK identity "nodeA-nodeC"
+2025.08.16 21:52:43 LOG6[0]: No peer certificate received
+2025.08.16 21:52:43 LOG6[0]: Session id: AE2615148197BCDF7EE66801FDFC66A716D8A4DBB7431727ADCB97A262B7C4E9
+2025.08.16 21:52:43 LOG6[0]: TLS accepted: PSK
+2025.08.16 21:52:43 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:43 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:43 LOG6[0]: Session id: AE2615148197BCDF7EE66801FDFC66A716D8A4DBB7431727ADCB97A262B7C4E9
+2025.08.16 21:52:43 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:52:43 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:20095
+2025.08.16 21:52:43 LOG6[1]: Peer certificate not required
+2025.08.16 21:52:43 LOG5[1]: Key configured for PSK identity "nodeB-nodeC"
+2025.08.16 21:52:43 LOG6[1]: No peer certificate received
+2025.08.16 21:52:43 LOG6[1]: Session id: 48F37A217A81DC9CDCF89FA932A847A0FD0C5A9015F87E6DF254AD6D423353B3
+2025.08.16 21:52:43 LOG6[1]: TLS accepted: PSK
+2025.08.16 21:52:43 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:43 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:43 LOG6[1]: Session id: 48F37A217A81DC9CDCF89FA932A847A0FD0C5A9015F87E6DF254AD6D423353B3
+2025.08.16 21:52:43 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:52:43 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:20109
+2025.08.16 21:52:43 LOG6[2]: Peer certificate not required
+2025.08.16 21:52:43 LOG5[2]: Key configured for PSK identity "nodeD-nodeC"
+2025.08.16 21:52:43 LOG6[2]: No peer certificate received
+2025.08.16 21:52:43 LOG6[2]: Session id: B24D5B983E3438D7F8AC42DF92E609181EF184EC911776A06BC1AC8E60BDDA3E
+2025.08.16 21:52:43 LOG6[2]: TLS accepted: PSK
+2025.08.16 21:52:43 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:43 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:43 LOG6[2]: Session id: B24D5B983E3438D7F8AC42DF92E609181EF184EC911776A06BC1AC8E60BDDA3E
+2025.08.16 21:52:43 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:52:44 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:52:44 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:52:44 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:20111
+2025.08.16 21:52:44 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:52:44 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:52:44 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:20088
+2025.08.16 21:52:44 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:52:44 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:52:44 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:20098
+2025.08.16 21:52:45 LOG5[3]: Service [nodeC-server] accepted connection from 127.0.0.1:20119
+2025.08.16 21:52:45 LOG6[3]: Peer certificate not required
+2025.08.16 21:52:45 LOG5[3]: Key configured for PSK identity "nodeE-nodeC"
+2025.08.16 21:52:45 LOG6[3]: No peer certificate received
+2025.08.16 21:52:45 LOG6[3]: Session id: A7CBE8AE88273BACC6419B357C4CF163E6C8C33D38C7AFB7B299E788314575CD
+2025.08.16 21:52:45 LOG6[3]: TLS accepted: PSK
+2025.08.16 21:52:45 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:45 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:45 LOG6[3]: Session id: A7CBE8AE88273BACC6419B357C4CF163E6C8C33D38C7AFB7B299E788314575CD
+2025.08.16 21:52:45 LOG6[3]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:52:45 LOG5[3]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:52:45 LOG6[3]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:52:45 LOG5[3]: Service [nodeC-server] connected remote server from 127.0.0.1:20126
+2025.08.16 21:52:45 LOG5[4]: Service [nodeC-client-B] accepted connection from 127.0.0.1:20127
+2025.08.16 21:52:45 LOG6[4]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:52:45 LOG5[5]: Service [nodeC-client-A] accepted connection from 127.0.0.1:20128
+2025.08.16 21:52:45 LOG6[5]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:52:45 LOG5[4]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:52:45 LOG5[6]: Service [nodeC-client-E] accepted connection from 127.0.0.1:20129
+2025.08.16 21:52:45 LOG5[4]: Service [nodeC-client-B] connected remote server from 127.0.0.1:20131
+2025.08.16 21:52:45 LOG6[6]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:52:45 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:52:45 LOG6[4]: Peer certificate not required
+2025.08.16 21:52:45 LOG5[6]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:52:45 LOG5[5]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:52:45 LOG5[6]: Service [nodeC-client-E] connected remote server from 127.0.0.1:20133
+2025.08.16 21:52:45 LOG5[5]: Service [nodeC-client-A] connected remote server from 127.0.0.1:20132
+2025.08.16 21:52:45 LOG6[6]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:52:45 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:52:45 LOG6[5]: Peer certificate not required
+2025.08.16 21:52:45 LOG6[6]: Peer certificate not required
+2025.08.16 21:52:45 LOG6[4]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:52:45 LOG6[6]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:52:45 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.08.16 21:52:45 LOG6[5]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:52:45 LOG6[4]: TLS connected: previous session reused
+2025.08.16 21:52:45 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:45 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:45 LOG6[4]: Session id: 
+2025.08.16 21:52:45 LOG6[4]: No peer certificate received
+2025.08.16 21:52:45 LOG6[4]: Session id: D653006C30F1F5408F6252A65A3A8849F6A5FD375A9E286DCB6DBA67CFC83D72
+2025.08.16 21:52:45 LOG6[6]: OCSP: Certificate chain verification disabled
+2025.08.16 21:52:45 LOG6[6]: TLS connected: previous session reused
+2025.08.16 21:52:45 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:45 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:45 LOG6[6]: Session id: 
+2025.08.16 21:52:45 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.08.16 21:52:45 LOG6[5]: TLS connected: previous session reused
+2025.08.16 21:52:45 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:52:45 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:52:45 LOG6[5]: Session id: 
+2025.08.16 21:52:45 LOG6[6]: No peer certificate received
+2025.08.16 21:52:45 LOG6[6]: Session id: A19567C2DC621AA9339E0FFA0394C6E36697CD48C07CA86BF3E08CB7D4EF46FF
+2025.08.16 21:52:45 LOG6[5]: No peer certificate received
+2025.08.16 21:52:45 LOG6[5]: Session id: 27542E867CD8D1749B39BFDA0FB45D38AEF4116BE177625247C6E8156EC919F7
+2025.08.16 21:52:45 LOG6[6]: TLS closed (SSL_read)
+2025.08.16 21:52:45 LOG6[6]: Read socket closed (readsocket)
+2025.08.16 21:52:45 LOG6[6]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:52:45 LOG5[6]: Connection closed: 405 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:53:04 LOG3[2]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG5[2]: Connection reset: 21813 byte(s) sent to TLS, 21766 byte(s) sent to socket
+2025.08.16 21:53:04 LOG3[0]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG3[1]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG5[0]: Connection reset: 15255 byte(s) sent to TLS, 15054 byte(s) sent to socket
+2025.08.16 21:53:04 LOG5[1]: Connection reset: 16187 byte(s) sent to TLS, 15195 byte(s) sent to socket
+2025.08.16 21:53:04 LOG3[5]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG5[5]: Connection reset: 21932 byte(s) sent to TLS, 21733 byte(s) sent to socket
+2025.08.16 21:53:04 LOG3[3]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG3[4]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:04 LOG5[4]: Connection reset: 22682 byte(s) sent to TLS, 21560 byte(s) sent to socket
+2025.08.16 21:53:04 LOG5[3]: Connection reset: 22889 byte(s) sent to TLS, 22063 byte(s) sent to socket
+2025.08.16 21:53:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:53:29 LOG5[7]: Service [nodeC-server] accepted connection from 127.0.0.1:20168
+2025.08.16 21:53:29 LOG6[7]: Peer certificate not required
+2025.08.16 21:53:29 LOG6[7]: PSK identity not found (session resumption?)
+2025.08.16 21:53:29 LOG6[7]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:53:29 LOG6[7]: No peer certificate received
+2025.08.16 21:53:29 LOG6[7]: Session id: 1A5C2E48E7B29705784A9F312E7219DEC7F845B39D7829F20E5DB985897416EF
+2025.08.16 21:53:29 LOG6[7]: TLS accepted: previous session reused
+2025.08.16 21:53:29 LOG6[7]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:29 LOG6[7]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:29 LOG6[7]: Session id: 1A5C2E48E7B29705784A9F312E7219DEC7F845B39D7829F20E5DB985897416EF
+2025.08.16 21:53:29 LOG6[7]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:53:30 LOG5[8]: Service [nodeC-server] accepted connection from 127.0.0.1:20182
+2025.08.16 21:53:30 LOG6[8]: Peer certificate not required
+2025.08.16 21:53:30 LOG6[8]: PSK identity not found (session resumption?)
+2025.08.16 21:53:30 LOG6[8]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:53:30 LOG6[8]: No peer certificate received
+2025.08.16 21:53:30 LOG6[8]: Session id: D6D6C13BBC85BEADEE974B56651E22238FBD3F53EAB7457F24D7A84D63DB44C8
+2025.08.16 21:53:30 LOG6[8]: TLS accepted: previous session reused
+2025.08.16 21:53:30 LOG6[8]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:30 LOG6[8]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:30 LOG6[8]: Session id: D6D6C13BBC85BEADEE974B56651E22238FBD3F53EAB7457F24D7A84D63DB44C8
+2025.08.16 21:53:30 LOG6[8]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:53:30 LOG5[9]: Service [nodeC-server] accepted connection from 127.0.0.1:20194
+2025.08.16 21:53:30 LOG6[9]: Peer certificate not required
+2025.08.16 21:53:30 LOG6[9]: PSK identity not found (session resumption?)
+2025.08.16 21:53:30 LOG6[9]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:53:30 LOG6[9]: No peer certificate received
+2025.08.16 21:53:30 LOG6[9]: Session id: E52FBC7D11361B248D0BC42B7AC9E252AB6C6D204C683625B99927FFA6DEFEED
+2025.08.16 21:53:30 LOG6[9]: TLS accepted: previous session reused
+2025.08.16 21:53:30 LOG6[9]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:30 LOG6[9]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:30 LOG6[9]: Session id: E52FBC7D11361B248D0BC42B7AC9E252AB6C6D204C683625B99927FFA6DEFEED
+2025.08.16 21:53:30 LOG6[9]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:53:31 LOG5[7]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:53:31 LOG6[7]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:53:31 LOG5[7]: Service [nodeC-server] connected remote server from 127.0.0.1:20175
+2025.08.16 21:53:31 LOG5[9]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:53:31 LOG6[9]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:53:31 LOG5[9]: Service [nodeC-server] connected remote server from 127.0.0.1:20197
+2025.08.16 21:53:31 LOG5[8]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:53:31 LOG6[8]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:53:31 LOG5[8]: Service [nodeC-server] connected remote server from 127.0.0.1:20184
+2025.08.16 21:53:31 LOG5[10]: Service [nodeC-server] accepted connection from 127.0.0.1:20202
+2025.08.16 21:53:31 LOG6[10]: Peer certificate not required
+2025.08.16 21:53:31 LOG6[10]: PSK identity not found (session resumption?)
+2025.08.16 21:53:31 LOG6[10]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:53:31 LOG6[10]: No peer certificate received
+2025.08.16 21:53:31 LOG6[10]: Session id: 14C1F1D2839A9BBA33FB8E0052D2EC658959A69074EA33500C73D295C969BCE7
+2025.08.16 21:53:31 LOG6[10]: TLS accepted: previous session reused
+2025.08.16 21:53:31 LOG6[10]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:31 LOG6[10]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:31 LOG6[10]: Session id: 14C1F1D2839A9BBA33FB8E0052D2EC658959A69074EA33500C73D295C969BCE7
+2025.08.16 21:53:31 LOG6[10]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:53:31 LOG5[10]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:53:31 LOG6[10]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:53:31 LOG5[10]: Service [nodeC-server] connected remote server from 127.0.0.1:20207
+2025.08.16 21:53:31 LOG6[9]: Read socket closed (readsocket)
+2025.08.16 21:53:31 LOG6[8]: Read socket closed (readsocket)
+2025.08.16 21:53:31 LOG6[7]: Read socket closed (readsocket)
+2025.08.16 21:53:31 LOG6[9]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:53:31 LOG6[7]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:53:31 LOG6[8]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:53:31 LOG6[7]: TLS closed (SSL_read)
+2025.08.16 21:53:31 LOG5[7]: Connection closed: 465 byte(s) sent to TLS, 693 byte(s) sent to socket
+2025.08.16 21:53:31 LOG6[8]: TLS closed (SSL_read)
+2025.08.16 21:53:31 LOG5[8]: Connection closed: 431 byte(s) sent to TLS, 715 byte(s) sent to socket
+2025.08.16 21:53:31 LOG6[9]: TLS closed (SSL_read)
+2025.08.16 21:53:31 LOG5[9]: Connection closed: 430 byte(s) sent to TLS, 687 byte(s) sent to socket
+2025.08.16 21:53:31 LOG6[10]: Read socket closed (readsocket)
+2025.08.16 21:53:31 LOG6[10]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:53:31 LOG6[10]: TLS closed (SSL_read)
+2025.08.16 21:53:31 LOG5[10]: Connection closed: 348 byte(s) sent to TLS, 595 byte(s) sent to socket
+2025.08.16 21:53:31 LOG5[11]: Service [nodeC-client-E] accepted connection from 127.0.0.1:20212
+2025.08.16 21:53:31 LOG6[11]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:53:31 LOG5[11]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:53:31 LOG5[11]: Service [nodeC-client-E] connected remote server from 127.0.0.1:20214
+2025.08.16 21:53:31 LOG6[11]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:53:31 LOG6[11]: Attempting to resume: A19567C2DC621AA9339E0FFA0394C6E36697CD48C07CA86BF3E08CB7D4EF46FF
+2025.08.16 21:53:31 LOG6[11]: Peer certificate not required
+2025.08.16 21:53:31 LOG5[12]: Service [nodeC-client-A] accepted connection from 127.0.0.1:20211
+2025.08.16 21:53:31 LOG6[12]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:53:31 LOG5[13]: Service [nodeC-client-B] accepted connection from 127.0.0.1:20213
+2025.08.16 21:53:31 LOG6[13]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:53:31 LOG5[13]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:53:31 LOG5[13]: Service [nodeC-client-B] connected remote server from 127.0.0.1:20216
+2025.08.16 21:53:31 LOG6[13]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:53:31 LOG6[13]: Attempting to resume: D653006C30F1F5408F6252A65A3A8849F6A5FD375A9E286DCB6DBA67CFC83D72
+2025.08.16 21:53:31 LOG6[13]: Peer certificate not required
+2025.08.16 21:53:31 LOG6[11]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:53:31 LOG6[13]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:53:31 LOG6[11]: OCSP: Certificate chain verification disabled
+2025.08.16 21:53:31 LOG5[12]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:53:31 LOG5[12]: Service [nodeC-client-A] connected remote server from 127.0.0.1:20215
+2025.08.16 21:53:31 LOG6[12]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:53:31 LOG6[12]: Attempting to resume: 27542E867CD8D1749B39BFDA0FB45D38AEF4116BE177625247C6E8156EC919F7
+2025.08.16 21:53:31 LOG6[12]: Peer certificate not required
+2025.08.16 21:53:31 LOG6[12]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:53:31 LOG6[13]: OCSP: Certificate chain verification disabled
+2025.08.16 21:53:31 LOG6[13]: TLS connected: previous session reused
+2025.08.16 21:53:31 LOG6[13]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:31 LOG6[13]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:31 LOG6[13]: Session id: D653006C30F1F5408F6252A65A3A8849F6A5FD375A9E286DCB6DBA67CFC83D72
+2025.08.16 21:53:31 LOG6[13]: No peer certificate received
+2025.08.16 21:53:31 LOG6[13]: Session id: 0E1B8E78F1ABD228634721CC22590CB535CE24E085953767550A7403D2704B5A
+2025.08.16 21:53:31 LOG6[12]: OCSP: Certificate chain verification disabled
+2025.08.16 21:53:31 LOG6[12]: TLS connected: previous session reused
+2025.08.16 21:53:31 LOG6[12]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:31 LOG6[12]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:31 LOG6[12]: Session id: 27542E867CD8D1749B39BFDA0FB45D38AEF4116BE177625247C6E8156EC919F7
+2025.08.16 21:53:31 LOG6[12]: No peer certificate received
+2025.08.16 21:53:31 LOG6[12]: Session id: 5471213B82FCF80F5451564AAFDA78E6C5F9DAC77027C89B36E68B11F1C125E9
+2025.08.16 21:53:31 LOG6[11]: TLS connected: previous session reused
+2025.08.16 21:53:31 LOG6[11]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:53:31 LOG6[11]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:53:31 LOG6[11]: Session id: A19567C2DC621AA9339E0FFA0394C6E36697CD48C07CA86BF3E08CB7D4EF46FF
+2025.08.16 21:53:31 LOG6[11]: No peer certificate received
+2025.08.16 21:53:31 LOG6[11]: Session id: EF8EBB2CE4F6FF6856658FD319D691D783C87B0086695AFC599B66D8D4A303D7
+2025.08.16 21:53:31 LOG6[11]: TLS closed (SSL_read)
+2025.08.16 21:53:31 LOG6[11]: Read socket closed (readsocket)
+2025.08.16 21:53:31 LOG6[11]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:53:31 LOG5[11]: Connection closed: 447 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:53:45 LOG3[13]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:45 LOG5[13]: Connection reset: 13703 byte(s) sent to TLS, 19514 byte(s) sent to socket
+2025.08.16 21:53:45 LOG3[12]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:53:45 LOG5[12]: Connection reset: 17179 byte(s) sent to TLS, 18992 byte(s) sent to socket
+2025.08.16 21:54:10 LOG5[14]: Service [nodeC-server] accepted connection from 127.0.0.1:20246
+2025.08.16 21:54:10 LOG6[14]: Peer certificate not required
+2025.08.16 21:54:10 LOG6[14]: PSK identity not found (session resumption?)
+2025.08.16 21:54:10 LOG6[14]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:54:10 LOG6[14]: No peer certificate received
+2025.08.16 21:54:10 LOG6[14]: Session id: 81556E4F2DFB5BA529D16BE7D164B6CDCC44AFF8B7201CF11341EBB59BCCCFE1
+2025.08.16 21:54:10 LOG6[14]: TLS accepted: previous session reused
+2025.08.16 21:54:10 LOG6[14]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:10 LOG6[14]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:10 LOG6[14]: Session id: 81556E4F2DFB5BA529D16BE7D164B6CDCC44AFF8B7201CF11341EBB59BCCCFE1
+2025.08.16 21:54:10 LOG6[14]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:54:11 LOG5[15]: Service [nodeC-server] accepted connection from 127.0.0.1:20259
+2025.08.16 21:54:11 LOG6[15]: Peer certificate not required
+2025.08.16 21:54:11 LOG6[15]: PSK identity not found (session resumption?)
+2025.08.16 21:54:11 LOG6[15]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:54:11 LOG6[15]: No peer certificate received
+2025.08.16 21:54:11 LOG6[15]: Session id: 29EDB1A04EB00E89FE8641029F4560E100BCEF8C0EB66D35A8722E6B6C79136D
+2025.08.16 21:54:11 LOG6[15]: TLS accepted: previous session reused
+2025.08.16 21:54:11 LOG6[15]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:11 LOG6[15]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:11 LOG6[15]: Session id: 29EDB1A04EB00E89FE8641029F4560E100BCEF8C0EB66D35A8722E6B6C79136D
+2025.08.16 21:54:11 LOG6[15]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:54:11 LOG5[15]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:54:11 LOG6[15]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:54:11 LOG5[15]: Service [nodeC-server] connected remote server from 127.0.0.1:20261
+2025.08.16 21:54:11 LOG5[14]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:54:11 LOG6[14]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:54:11 LOG5[14]: Service [nodeC-server] connected remote server from 127.0.0.1:20250
+2025.08.16 21:54:11 LOG6[15]: Read socket closed (readsocket)
+2025.08.16 21:54:11 LOG6[15]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:54:11 LOG6[15]: TLS closed (SSL_read)
+2025.08.16 21:54:11 LOG5[15]: Connection closed: 464 byte(s) sent to TLS, 770 byte(s) sent to socket
+2025.08.16 21:54:11 LOG6[14]: Read socket closed (readsocket)
+2025.08.16 21:54:11 LOG6[14]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:54:11 LOG6[14]: TLS closed (SSL_read)
+2025.08.16 21:54:11 LOG5[14]: Connection closed: 489 byte(s) sent to TLS, 718 byte(s) sent to socket
+2025.08.16 21:54:11 LOG5[16]: Service [nodeC-client-B] accepted connection from 127.0.0.1:20265
+2025.08.16 21:54:11 LOG5[17]: Service [nodeC-client-A] accepted connection from 127.0.0.1:20263
+2025.08.16 21:54:11 LOG6[16]: s_connect: connecting 127.0.0.1:13012
+2025.08.16 21:54:11 LOG6[17]: s_connect: connecting 127.0.0.1:13011
+2025.08.16 21:54:11 LOG5[18]: Service [nodeC-client-E] accepted connection from 127.0.0.1:20264
+2025.08.16 21:54:11 LOG6[18]: s_connect: connecting 127.0.0.1:13015
+2025.08.16 21:54:11 LOG5[17]: s_connect: connected 127.0.0.1:13011
+2025.08.16 21:54:11 LOG5[16]: s_connect: connected 127.0.0.1:13012
+2025.08.16 21:54:11 LOG5[17]: Service [nodeC-client-A] connected remote server from 127.0.0.1:20267
+2025.08.16 21:54:11 LOG6[17]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:54:11 LOG6[17]: Attempting to resume: 5471213B82FCF80F5451564AAFDA78E6C5F9DAC77027C89B36E68B11F1C125E9
+2025.08.16 21:54:11 LOG5[18]: s_connect: connected 127.0.0.1:13015
+2025.08.16 21:54:11 LOG6[17]: Peer certificate not required
+2025.08.16 21:54:11 LOG5[18]: Service [nodeC-client-E] connected remote server from 127.0.0.1:20268
+2025.08.16 21:54:11 LOG5[16]: Service [nodeC-client-B] connected remote server from 127.0.0.1:20266
+2025.08.16 21:54:11 LOG6[18]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:54:11 LOG6[18]: Attempting to resume: EF8EBB2CE4F6FF6856658FD319D691D783C87B0086695AFC599B66D8D4A303D7
+2025.08.16 21:54:11 LOG6[16]: SNI: sending servername: 127.0.0.1
+2025.08.16 21:54:11 LOG6[16]: Attempting to resume: 0E1B8E78F1ABD228634721CC22590CB535CE24E085953767550A7403D2704B5A
+2025.08.16 21:54:11 LOG6[18]: Peer certificate not required
+2025.08.16 21:54:11 LOG6[16]: Peer certificate not required
+2025.08.16 21:54:11 LOG6[17]: PSK client configured for identity "nodeC-nodeA"
+2025.08.16 21:54:11 LOG6[18]: PSK client configured for identity "nodeC-nodeE"
+2025.08.16 21:54:11 LOG6[16]: PSK client configured for identity "nodeC-nodeB"
+2025.08.16 21:54:11 LOG6[17]: OCSP: Certificate chain verification disabled
+2025.08.16 21:54:11 LOG6[17]: TLS connected: previous session reused
+2025.08.16 21:54:11 LOG6[17]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:11 LOG6[16]: OCSP: Certificate chain verification disabled
+2025.08.16 21:54:11 LOG6[17]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:11 LOG6[17]: Session id: 5471213B82FCF80F5451564AAFDA78E6C5F9DAC77027C89B36E68B11F1C125E9
+2025.08.16 21:54:11 LOG6[16]: TLS connected: previous session reused
+2025.08.16 21:54:11 LOG6[16]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:11 LOG6[16]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:11 LOG6[16]: Session id: 0E1B8E78F1ABD228634721CC22590CB535CE24E085953767550A7403D2704B5A
+2025.08.16 21:54:11 LOG6[17]: No peer certificate received
+2025.08.16 21:54:11 LOG6[17]: Session id: 103D7396CA934ED531F9790705AD87F5E57F4779154257E1D7A5A89418CA1366
+2025.08.16 21:54:11 LOG6[16]: No peer certificate received
+2025.08.16 21:54:11 LOG6[16]: Session id: 8FA7D4B539760FDBA52E9D30010F1C628127C0D01BE40474A400D332AB8955E3
+2025.08.16 21:54:11 LOG6[18]: OCSP: Certificate chain verification disabled
+2025.08.16 21:54:11 LOG6[18]: TLS connected: previous session reused
+2025.08.16 21:54:11 LOG6[18]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:11 LOG6[18]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:11 LOG6[18]: Session id: EF8EBB2CE4F6FF6856658FD319D691D783C87B0086695AFC599B66D8D4A303D7
+2025.08.16 21:54:11 LOG6[18]: No peer certificate received
+2025.08.16 21:54:11 LOG6[18]: Session id: B6C000CF1668CD92B0AC1A6F8E01B12AA3358344D2D0F52F7A77573E2D49E534
+2025.08.16 21:54:11 LOG5[19]: Service [nodeC-server] accepted connection from 127.0.0.1:20276
+2025.08.16 21:54:11 LOG6[19]: Peer certificate not required
+2025.08.16 21:54:11 LOG6[19]: PSK identity not found (session resumption?)
+2025.08.16 21:54:11 LOG6[19]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:54:11 LOG6[19]: No peer certificate received
+2025.08.16 21:54:11 LOG6[19]: Session id: 54CDCCEE788C71A3F7E7250DA88A25CA594BF2049DE30CFC33511D49210920E6
+2025.08.16 21:54:11 LOG6[19]: TLS accepted: previous session reused
+2025.08.16 21:54:11 LOG6[19]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:11 LOG6[19]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:11 LOG6[19]: Session id: 54CDCCEE788C71A3F7E7250DA88A25CA594BF2049DE30CFC33511D49210920E6
+2025.08.16 21:54:11 LOG6[19]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:54:11 LOG5[19]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:54:11 LOG6[19]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:54:11 LOG5[19]: Service [nodeC-server] connected remote server from 127.0.0.1:20283
+2025.08.16 21:54:12 LOG5[20]: Service [nodeC-server] accepted connection from 127.0.0.1:20293
+2025.08.16 21:54:12 LOG6[20]: Peer certificate not required
+2025.08.16 21:54:12 LOG6[20]: PSK identity not found (session resumption?)
+2025.08.16 21:54:12 LOG6[20]: Decrypted ticket for an authenticated session: yes
+2025.08.16 21:54:12 LOG6[20]: No peer certificate received
+2025.08.16 21:54:12 LOG6[20]: Session id: 0E96FF762021EB863177527FA65F67D46B40099E5A4E3AACF88283ED28BDA405
+2025.08.16 21:54:12 LOG6[20]: TLS accepted: previous session reused
+2025.08.16 21:54:12 LOG6[20]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.08.16 21:54:12 LOG6[20]: Peer temporary key: X25519, 253 bits
+2025.08.16 21:54:12 LOG6[20]: Session id: 0E96FF762021EB863177527FA65F67D46B40099E5A4E3AACF88283ED28BDA405
+2025.08.16 21:54:12 LOG6[20]: s_connect: connecting 127.0.0.1:30303
+2025.08.16 21:54:12 LOG5[20]: s_connect: connected 127.0.0.1:30303
+2025.08.16 21:54:12 LOG6[20]: persistence: 127.0.0.1:30303 cached
+2025.08.16 21:54:12 LOG5[20]: Service [nodeC-server] connected remote server from 127.0.0.1:20296
+2025.08.16 21:54:12 LOG6[18]: TLS closed (SSL_read)
+2025.08.16 21:54:12 LOG6[18]: Read socket closed (readsocket)
+2025.08.16 21:54:12 LOG6[18]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:54:12 LOG5[18]: Connection closed: 550 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.08.16 21:54:25 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.08.16 21:54:29 LOG3[17]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:54:29 LOG5[17]: Connection reset: 22206 byte(s) sent to TLS, 24144 byte(s) sent to socket
+2025.08.16 21:54:32 LOG3[20]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:54:32 LOG5[20]: Connection reset: 26551 byte(s) sent to TLS, 25431 byte(s) sent to socket
+2025.08.16 21:54:32 LOG6[19]: Read socket closed (readsocket)
+2025.08.16 21:54:32 LOG6[19]: SSL_shutdown successfully sent close_notify alert
+2025.08.16 21:54:32 LOG6[19]: TLS closed (SSL_read)
+2025.08.16 21:54:32 LOG5[19]: Connection closed: 17349 byte(s) sent to TLS, 19701 byte(s) sent to socket
+2025.08.16 21:54:33 LOG3[16]: transfer: readsocket: Connection reset by peer (WSAECONNRESET) (10054)
+2025.08.16 21:54:33 LOG5[16]: Connection reset: 25863 byte(s) sent to TLS, 28048 byte(s) sent to socket
+2025.08.16 21:54:39 LOG5[main]: Terminated
+2025.09.18 02:19:39 LOG6[main]: Initializing inetd mode configuration
+2025.09.18 02:19:39 LOG5[main]: stunnel 5.75 on x64-pc-mingw32-gnu platform
+2025.09.18 02:19:39 LOG5[main]: Compiled/running with OpenSSL 3.4.1 11 Feb 2025
+2025.09.18 02:19:39 LOG5[main]: Threading:WIN32 Sockets:SELECT,IPv6 TLS:ENGINE,FIPS,OCSP,PSK,SNI
+2025.09.18 02:19:39 LOG6[main]: Initializing inetd mode configuration
+2025.09.18 02:19:39 LOG5[main]: Reading configuration from file D:\Downloads\stunnel\config\tls_proxy\config\nodeC.conf
+2025.09.18 02:19:39 LOG5[main]: UTF-8 byte order mark not detected
+2025.09.18 02:19:39 LOG5[main]: FIPS mode disabled
+2025.09.18 02:19:39 LOG6[main]: Compression disabled
+2025.09.18 02:19:39 LOG6[main]: Initializing service [nodeC-server]
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeA-nodeC"
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 2: 33-byte ASCII key configured for identity "nodeB-nodeC"
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 3: 33-byte ASCII key configured for identity "nodeD-nodeC"
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 4: 33-byte ASCII key configured for identity "nodeE-nodeC"
+2025.09.18 02:19:39 LOG6[main]: PSK identities: 4 retrieved
+2025.09.18 02:19:39 LOG6[main]: OpenSSL security level is used: 2
+2025.09.18 02:19:39 LOG6[main]: Session resumption enabled
+2025.09.18 02:19:39 LOG6[main]: No trusted certificates found
+2025.09.18 02:19:39 LOG5[main]: OCSP: Server OCSP stapling is incompatible with PSK
+2025.09.18 02:19:39 LOG6[main]: DH initialization needed for DHE-PSK-AES256-GCM-SHA384
+2025.09.18 02:19:39 LOG6[main]: Using dynamic DH parameters
+2025.09.18 02:19:39 LOG6[main]: Initializing service [nodeC-client-A]
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeA"
+2025.09.18 02:19:39 LOG6[main]: PSK identities: 1 retrieved
+2025.09.18 02:19:39 LOG6[main]: OpenSSL security level is used: 2
+2025.09.18 02:19:39 LOG6[main]: Session resumption enabled
+2025.09.18 02:19:39 LOG6[main]: No trusted certificates found
+2025.09.18 02:19:39 LOG6[main]: DH initialization skipped: client section
+2025.09.18 02:19:39 LOG6[main]: Initializing service [nodeC-client-B]
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeB"
+2025.09.18 02:19:39 LOG6[main]: PSK identities: 1 retrieved
+2025.09.18 02:19:39 LOG6[main]: OpenSSL security level is used: 2
+2025.09.18 02:19:39 LOG6[main]: Session resumption enabled
+2025.09.18 02:19:39 LOG6[main]: No trusted certificates found
+2025.09.18 02:19:39 LOG6[main]: DH initialization skipped: client section
+2025.09.18 02:19:39 LOG6[main]: Initializing service [nodeC-client-D]
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeD"
+2025.09.18 02:19:39 LOG6[main]: PSK identities: 1 retrieved
+2025.09.18 02:19:39 LOG6[main]: OpenSSL security level is used: 2
+2025.09.18 02:19:39 LOG6[main]: Session resumption enabled
+2025.09.18 02:19:39 LOG6[main]: No trusted certificates found
+2025.09.18 02:19:39 LOG6[main]: DH initialization skipped: client section
+2025.09.18 02:19:39 LOG6[main]: Initializing service [nodeC-client-E]
+2025.09.18 02:19:39 LOG6[main]: PSKsecrets line 1: 33-byte ASCII key configured for identity "nodeC-nodeE"
+2025.09.18 02:19:39 LOG6[main]: PSK identities: 1 retrieved
+2025.09.18 02:19:39 LOG6[main]: OpenSSL security level is used: 2
+2025.09.18 02:19:39 LOG6[main]: Session resumption enabled
+2025.09.18 02:19:39 LOG6[main]: No trusted certificates found
+2025.09.18 02:19:39 LOG6[main]: DH initialization skipped: client section
+2025.09.18 02:19:39 LOG5[main]: Configuration successful
+2025.09.18 02:19:39 LOG6[main]: Service [nodeC-server] (FD=724) bound to 127.0.0.1:13013
+2025.09.18 02:19:39 LOG6[main]: Service [nodeC-client-A] (FD=748) bound to 127.0.0.1:30431
+2025.09.18 02:19:39 LOG6[main]: Service [nodeC-client-B] (FD=752) bound to 127.0.0.1:30432
+2025.09.18 02:19:39 LOG6[main]: Service [nodeC-client-D] (FD=756) bound to 127.0.0.1:30433
+2025.09.18 02:19:39 LOG6[main]: Service [nodeC-client-E] (FD=760) bound to 127.0.0.1:30434
+2025.09.18 02:19:39 LOG6[main]: Accepting new connections
+2025.09.18 02:19:39 LOG6[per-day]: Executing per-day jobs
+2025.09.18 02:19:39 LOG5[per-day]: Updating DH parameters
+2025.09.18 02:20:02 LOG5[0]: Service [nodeC-server] accepted connection from 127.0.0.1:13393
+2025.09.18 02:20:02 LOG6[0]: Peer certificate not required
+2025.09.18 02:20:02 LOG5[0]: Key configured for PSK identity "nodeD-nodeC"
+2025.09.18 02:20:02 LOG6[0]: No peer certificate received
+2025.09.18 02:20:02 LOG6[0]: Session id: 502169684BA9DDB18DAEA307E16801A92026834C5C20F2F7A0AAE90303A2477B
+2025.09.18 02:20:02 LOG6[0]: TLS accepted: PSK
+2025.09.18 02:20:02 LOG6[0]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:02 LOG6[0]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:02 LOG6[0]: Session id: 502169684BA9DDB18DAEA307E16801A92026834C5C20F2F7A0AAE90303A2477B
+2025.09.18 02:20:02 LOG6[0]: s_connect: connecting 127.0.0.1:30303
+2025.09.18 02:20:02 LOG5[1]: Service [nodeC-server] accepted connection from 127.0.0.1:13401
+2025.09.18 02:20:02 LOG6[1]: Peer certificate not required
+2025.09.18 02:20:02 LOG5[1]: Key configured for PSK identity "nodeE-nodeC"
+2025.09.18 02:20:02 LOG6[1]: No peer certificate received
+2025.09.18 02:20:02 LOG6[1]: Session id: CBC3A01584875A14AF1AB768640C8BC58C5010EE21F14731BF2B17041E4F8466
+2025.09.18 02:20:02 LOG6[1]: TLS accepted: PSK
+2025.09.18 02:20:02 LOG6[1]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:02 LOG6[1]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:02 LOG6[1]: Session id: CBC3A01584875A14AF1AB768640C8BC58C5010EE21F14731BF2B17041E4F8466
+2025.09.18 02:20:02 LOG6[1]: s_connect: connecting 127.0.0.1:30303
+2025.09.18 02:20:03 LOG5[1]: s_connect: connected 127.0.0.1:30303
+2025.09.18 02:20:03 LOG6[1]: persistence: 127.0.0.1:30303 cached
+2025.09.18 02:20:03 LOG5[1]: Service [nodeC-server] connected remote server from 127.0.0.1:13405
+2025.09.18 02:20:03 LOG5[0]: s_connect: connected 127.0.0.1:30303
+2025.09.18 02:20:03 LOG6[0]: persistence: 127.0.0.1:30303 cached
+2025.09.18 02:20:03 LOG5[0]: Service [nodeC-server] connected remote server from 127.0.0.1:13396
+2025.09.18 02:20:03 LOG5[2]: Service [nodeC-server] accepted connection from 127.0.0.1:13415
+2025.09.18 02:20:03 LOG6[2]: Peer certificate not required
+2025.09.18 02:20:03 LOG5[2]: Key configured for PSK identity "nodeB-nodeC"
+2025.09.18 02:20:03 LOG6[2]: No peer certificate received
+2025.09.18 02:20:03 LOG6[2]: Session id: DC64846A74A5B81933A0923E7C166EA8EB76D3F7D53ED9DE0BF002005CDDEE15
+2025.09.18 02:20:03 LOG6[2]: TLS accepted: PSK
+2025.09.18 02:20:03 LOG6[2]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:03 LOG6[2]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:03 LOG6[2]: Session id: DC64846A74A5B81933A0923E7C166EA8EB76D3F7D53ED9DE0BF002005CDDEE15
+2025.09.18 02:20:03 LOG6[2]: s_connect: connecting 127.0.0.1:30303
+2025.09.18 02:20:03 LOG5[2]: s_connect: connected 127.0.0.1:30303
+2025.09.18 02:20:03 LOG6[2]: persistence: 127.0.0.1:30303 cached
+2025.09.18 02:20:03 LOG5[2]: Service [nodeC-server] connected remote server from 127.0.0.1:13418
+2025.09.18 02:20:03 LOG5[3]: Service [nodeC-client-A] accepted connection from 127.0.0.1:13422
+2025.09.18 02:20:03 LOG6[3]: s_connect: connecting 127.0.0.1:13011
+2025.09.18 02:20:03 LOG5[4]: Service [nodeC-client-B] accepted connection from 127.0.0.1:13421
+2025.09.18 02:20:03 LOG6[4]: s_connect: connecting 127.0.0.1:13012
+2025.09.18 02:20:03 LOG5[5]: Service [nodeC-client-E] accepted connection from 127.0.0.1:13423
+2025.09.18 02:20:03 LOG6[5]: s_connect: connecting 127.0.0.1:13015
+2025.09.18 02:20:03 LOG5[3]: s_connect: connected 127.0.0.1:13011
+2025.09.18 02:20:03 LOG5[3]: Service [nodeC-client-A] connected remote server from 127.0.0.1:13425
+2025.09.18 02:20:03 LOG6[3]: SNI: sending servername: 127.0.0.1
+2025.09.18 02:20:03 LOG6[3]: Peer certificate not required
+2025.09.18 02:20:03 LOG5[4]: s_connect: connected 127.0.0.1:13012
+2025.09.18 02:20:03 LOG5[4]: Service [nodeC-client-B] connected remote server from 127.0.0.1:13426
+2025.09.18 02:20:03 LOG5[5]: s_connect: connected 127.0.0.1:13015
+2025.09.18 02:20:03 LOG5[5]: Service [nodeC-client-E] connected remote server from 127.0.0.1:13427
+2025.09.18 02:20:03 LOG6[5]: SNI: sending servername: 127.0.0.1
+2025.09.18 02:20:03 LOG6[5]: Peer certificate not required
+2025.09.18 02:20:03 LOG6[4]: SNI: sending servername: 127.0.0.1
+2025.09.18 02:20:03 LOG6[4]: Peer certificate not required
+2025.09.18 02:20:03 LOG6[4]: PSK client configured for identity "nodeC-nodeB"
+2025.09.18 02:20:03 LOG6[3]: PSK client configured for identity "nodeC-nodeA"
+2025.09.18 02:20:03 LOG6[5]: PSK client configured for identity "nodeC-nodeE"
+2025.09.18 02:20:03 LOG6[3]: OCSP: Certificate chain verification disabled
+2025.09.18 02:20:03 LOG6[3]: TLS connected: previous session reused
+2025.09.18 02:20:03 LOG6[3]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:03 LOG6[3]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:03 LOG6[3]: Session id: 
+2025.09.18 02:20:03 LOG6[3]: No peer certificate received
+2025.09.18 02:20:03 LOG6[3]: Session id: 6A1BD0226597C4BFE3602720C6B0031D7C4990428D9E996ECD43D7BA6AAD18BB
+2025.09.18 02:20:03 LOG6[4]: OCSP: Certificate chain verification disabled
+2025.09.18 02:20:03 LOG6[4]: TLS connected: previous session reused
+2025.09.18 02:20:03 LOG6[4]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:03 LOG6[4]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:03 LOG6[4]: Session id: 
+2025.09.18 02:20:03 LOG6[5]: OCSP: Certificate chain verification disabled
+2025.09.18 02:20:03 LOG6[5]: TLS connected: previous session reused
+2025.09.18 02:20:03 LOG6[5]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:03 LOG6[5]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:03 LOG6[5]: Session id: 
+2025.09.18 02:20:03 LOG6[5]: No peer certificate received
+2025.09.18 02:20:03 LOG6[5]: Session id: 7B98E32B7CD6CE035DFCD04085C07B83F6C1B789974FBCE4DED620A2B8FE8D54
+2025.09.18 02:20:03 LOG6[4]: No peer certificate received
+2025.09.18 02:20:03 LOG6[4]: Session id: 9549623C403B0092256D9E17372B2489CEA81A1D328FFB98C28262C5FDC1EE84
+2025.09.18 02:20:03 LOG6[5]: TLS closed (SSL_read)
+2025.09.18 02:20:03 LOG6[5]: Read socket closed (readsocket)
+2025.09.18 02:20:03 LOG6[5]: SSL_shutdown successfully sent close_notify alert
+2025.09.18 02:20:03 LOG5[5]: Connection closed: 401 byte(s) sent to TLS, 0 byte(s) sent to socket
+2025.09.18 02:20:04 LOG5[6]: Service [nodeC-server] accepted connection from 127.0.0.1:13437
+2025.09.18 02:20:04 LOG6[6]: Peer certificate not required
+2025.09.18 02:20:04 LOG5[6]: Key configured for PSK identity "nodeA-nodeC"
+2025.09.18 02:20:04 LOG6[6]: No peer certificate received
+2025.09.18 02:20:04 LOG6[6]: Session id: AB386C979D1FC64951E84FCE5D816910070BAC06407A4F884886285A791B24D7
+2025.09.18 02:20:04 LOG6[6]: TLS accepted: PSK
+2025.09.18 02:20:04 LOG6[6]: TLSv1.3 ciphersuite: TLS_AES_128_GCM_SHA256 (128-bit encryption)
+2025.09.18 02:20:04 LOG6[6]: Peer temporary key: X25519, 253 bits
+2025.09.18 02:20:04 LOG6[6]: Session id: AB386C979D1FC64951E84FCE5D816910070BAC06407A4F884886285A791B24D7
+2025.09.18 02:20:04 LOG6[6]: s_connect: connecting 127.0.0.1:30303
+2025.09.18 02:20:04 LOG5[6]: s_connect: connected 127.0.0.1:30303
+2025.09.18 02:20:04 LOG6[6]: persistence: 127.0.0.1:30303 cached
+2025.09.18 02:20:04 LOG5[6]: Service [nodeC-server] connected remote server from 127.0.0.1:13439
+2025.09.18 02:20:30 LOG6[6]: Read socket closed (readsocket)
+2025.09.18 02:20:30 LOG6[6]: SSL_shutdown successfully sent close_notify alert
+2025.09.18 02:20:30 LOG6[6]: TLS closed (SSL_read)
+2025.09.18 02:20:30 LOG5[6]: Connection closed: 21266 byte(s) sent to TLS, 24320 byte(s) sent to socket
+2025.09.18 02:20:30 LOG6[2]: TLS closed (SSL_read)
+2025.09.18 02:20:30 LOG6[2]: Read socket closed (readsocket)
+2025.09.18 02:20:30 LOG6[2]: SSL_shutdown successfully sent close_notify alert
+2025.09.18 02:20:30 LOG5[2]: Connection closed: 21096 byte(s) sent to TLS, 23921 byte(s) sent to socket
+2025.09.18 02:20:39 LOG3[1]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.09.18 02:20:39 LOG5[1]: Connection reset: 40049 byte(s) sent to TLS, 43594 byte(s) sent to socket
+2025.09.18 02:20:39 LOG3[0]: transfer: SSL_read: Connection reset by peer (WSAECONNRESET) (10054)
+2025.09.18 02:20:39 LOG5[0]: Connection reset: 39802 byte(s) sent to TLS, 43526 byte(s) sent to socket
+2025.09.18 02:20:39 LOG3[per-minute]: OCSP: SSL_get_certificate
+2025.09.18 02:20:41 LOG5[main]: Terminated
