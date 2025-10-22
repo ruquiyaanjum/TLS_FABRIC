@@ -74,3 +74,98 @@ Run the sequence as:
 | **PSK (QKD source)** | Quantum symmetric key exchange     | Quantum resistance                |
 | **Test Scripts**     | Automated validation               | Performance and handshake metrics |
 
+🧬 Part II: PQC_Fabric Network Setup (Integration Work in Progress)
+1️⃣ Overview
+
+The PQC_Fabric testbed integrates Post-Quantum Cryptography (PQC) within the Membership Service Provider (MSP).
+Testing is conducted in /crypto-benchmark, focusing on hybrid MSPs that combine classical X.509 and PQC keypairs (e.g., Kyber / Dilithium).
+
+2️⃣ Network Architecture
+Node	Fabric Role(s)	Ports
+nodeA	Orderer, Peer0 of Org1	7050, 7051, 7052, 9443
+nodeB	Peer1 of Org1	8051, 8052, 9444
+nodeC	Orderer, Peer0 of Org2	8050, 9051, 9052, 9445
+nodeD	Peer1 of Org2	10051, 10052, 9446
+nodeE	Orderer only	9050
+3️⃣ Prerequisites
+🐳 Docker & Docker Compose
+
+Install Docker Desktop or Docker Engine.
+Verify installation:
+
+docker --version
+docker-compose --version
+
+⚙️ Fabric Binaries
+
+Download Fabric binaries and samples:
+
+curl -sSL https://bit.ly/2ysbOFE | bash
+
+💻 Go & Node.js (for Chaincode)
+
+Install required runtimes:
+
+# Go (1.19+)
+sudo apt install golang-go
+
+# Node.js (16+)
+sudo apt install nodejs npm
+
+4️⃣ Setup & Execution
+
+Generate crypto materials using cryptogen or Fabric CA
+
+Configure docker-compose.yaml for network topology
+
+Launch the network:
+
+./network.sh up
+
+
+Deploy chaincode and test PQC-enhanced transactions
+
+5️⃣ Components
+
+Orderer Nodes: Maintain transaction order
+
+Peers: Execute and endorse transactions
+
+CA: Issues certificates (extended to support PQC)
+
+Chaincode: Smart contract logic for PQC testing
+
+6️⃣ Troubleshooting
+⚠️ Port Conflicts
+
+Ensure all port numbers (7050–10052) are free before launch.
+
+🧩 Container Failures
+
+Check logs with:
+
+docker ps -a
+docker logs <container_id>
+
+🔐 Regenerate Crypto
+
+If certificates mismatch or expire:
+
+./network.sh down
+./network.sh generate
+
+7️⃣ Cleanup
+
+Shut down the network and remove all containers:
+
+./network.sh down
+docker system prune -f
+
+🧾 Summary
+
+This repository demonstrates:
+
+A Quantum-Resistant Hyperledger Besu network using Post-Quantum TLS Proxies, and
+
+A PQC-integrated Fabric testbed focusing on quantum-safe cryptography at the MSP layer.
+
